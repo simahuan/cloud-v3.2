@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ui_navigation_bar" />
+
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+	        android:id="@+id/message_listview"
+	        style="@style/listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+        
+        <TextView 
+		    android:id="@+id/message_tip"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:visibility="gone"
+		    android:gravity="center"
+		    android:drawableTop="@drawable/ic_nodata"
+		    android:drawablePadding="10dp"
+		    android:textColor="@color/gray"
+		    android:text="暂无数据"/>
+    </FrameLayout>
+	
+</LinearLayout>

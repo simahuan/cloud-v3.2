@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.pisen.router"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+   <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        app:pstsDividerColor="@android:color/transparent"
+        app:pstsIndicatorColor="@color/tabstrip_indicator"
+        app:pstsIndicatorHeight="2dp"
+        app:pstsShouldExpand="true"
+        app:pstsUnderlineHeight="1dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+<!--     <RadioGroup
+        android:id="@+id/grdo_tabs_rg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F6F6F6"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tabSame"
+            style="@style/TabIndicator"
+            android:checked="true"
+            android:text="同一局域网" />
+
+        <RadioButton
+            android:id="@+id/tabDiff"
+            style="@style/TabIndicator"
+            android:text="不同局域网" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/frm_Help_Content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" /> -->
+
+</LinearLayout>

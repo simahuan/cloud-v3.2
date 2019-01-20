@@ -1,0 +1,7 @@
+<resources>
+
+   
+    <dimen name="account_item_row_height">44.0dp</dimen>
+    <dimen name="account_item_txt_size">16.0sp</dimen>
+    <dimen name="account_item_txt_btn_size">20.0sp</dimen>
+</resources>

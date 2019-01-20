@@ -1,0 +1,90 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        mavenCentral()
+//        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.0'
+    }
+}
+
+allprojects {
+    repositories {
+//        google()
+        jcenter()
+        mavenCentral()
+    }
+}
+
+//task clean(type: Delete) {
+//    delete rootProject.buildDir
+//}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '25.0.0'
+
+
+    defaultConfig {
+        applicationId "com.pisen.router"
+        minSdkVersion 15
+        targetSdkVersion 21
+
+        multiDexEnabled true
+    }
+
+    dexOptions {
+        preDexLibraries = false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    sourceSets{
+        main{
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    afterEvaluate {
+        tasks.matching {
+            it.name.startsWith('dex')
+        }.each { dx ->
+            if (dx.additionalParameters == null) {
+                dx.additionalParameters = []
+            }
+            dx.additionalParameters += '--multi-dex' // enable multidex
+
+            // optional
+            // dx.additionalParameters += --main-dex-list=$projectDir/.toString() // enable the main-dex-list
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.+'
+    compile fileTree(dir: 'libs', include: '*.jar')
+    compile project(':ext-libs:EasemobModule')
+    compile project(':ext-libs:pinshenglib')
+    //    compile 'com.google.android:multidex:0.1+'
+}

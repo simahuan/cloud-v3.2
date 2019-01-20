@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_header_choice" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/resource_home_shop" />
+
+        <LinearLayout
+            android:id="@+id/diskLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:background="#EDEDED"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="我的私有云"
+                    android:textColor="#999999" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#CCCCCC" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <com.handmark.pulltorefresh.library.PullToRefreshListView
+                    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/listContent"
+                    style="@style/AppListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fadingEdge="none"
+                    android:fastScrollEnabled="false"
+		            android:footerDividersEnabled="false"
+		            android:headerDividersEnabled="false"
+		            android:smoothScrollbar="true"
+		            ptr:ptrMode="both"
+		            ptr:ptrListViewExtrasEnabled="false" />
+
+                <TextView
+                    android:id="@+id/msgToast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="扫描磁盘，请稍候..." />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/listfileLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/categoryLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

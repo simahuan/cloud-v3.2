@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_bg_single_top"
+        android:padding="8dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/msg_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:text="品胜云路由"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/msg_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:singleLine="true"
+            android:text="2015-03-27 13:43:19"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:focusable="false"
+            android:paddingTop="5dp"
+            android:background="@drawable/listview_divider"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/msg_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:text="新一代品胜云路由,新品发布,性价比高...."
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

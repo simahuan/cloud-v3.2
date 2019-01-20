@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_gravity="right"
+    android:background="@drawable/application_background"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp" >
+
+    <com.wefi.zhuiju.customview.cropimageview.CropImageView
+        android:id="@+id/video_iv"
+        android:layout_width="105dp"
+        android:layout_height="70dip"
+        android:layout_alignParentLeft="true"
+        android:background="@color/black"
+        android:src="@drawable/default_video_local"
+        custom:crop="centerTop" />
+
+    <LinearLayout
+        android:id="@+id/descri_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="70dip"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/progress_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/state_tv"
+                android:layout_width="33dip"
+                android:layout_height="33dip"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="33dip"
+                android:layout_height="33dip"
+                android:layout_centerInParent="true"
+                android:src="@drawable/download_progress" />
+
+            <com.wefi.zhuiju.customview.RoundProgressBar
+                android:id="@+id/progress_rpb"
+                android:layout_width="33dp"
+                android:layout_height="33dip"
+                custom:roundColor="#00000000"
+                custom:roundProgressColor="@color/orange_st"
+                custom:roundWidth="1.5dp"
+                custom:textIsDisplayable="false" />
+        </RelativeLayout>
+
+        <CheckBox
+            android:id="@+id/choose_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:button="@drawable/checkbox_selector"
+            android:focusable="false" 
+        	android:focusableInTouchMode="false" 
+        	android:clickable="false" 
+            android:gravity="bottom" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_toLeftOf="@id/descri_rl"
+        android:layout_toRightOf="@id/video_iv"
+        android:background="#FFFFFF"
+        android:gravity="center|left" >
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="老友记第4季(未删减版)第10集"
+            android:textColor="#1b1b1b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/size_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/name_tv"
+            android:layout_below="@id/name_tv"
+            android:singleLine="true"
+            android:text="200M"
+            android:textColor="@drawable/actionbar_textcolor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/speed_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_tv"
+            android:layout_marginLeft="20dip"
+            android:layout_toRightOf="@id/size_tv"
+            android:singleLine="true"
+            android:text="38k/s"
+            android:textColor="#2EA7E2"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

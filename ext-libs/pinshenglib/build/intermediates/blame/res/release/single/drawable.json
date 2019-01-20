@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_subscribe_no.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_subscribe_no.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\vpi_title_textcolor.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\vpi_title_textcolor.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_subscribe_yes.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_subscribe_yes.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_refresh_apps.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_refresh_apps.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\rect_normal.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\rect_normal.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_blue.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_blue.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\video_delete_btn.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\video_delete_btn.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_player_gonext.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_player_gonext.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\btn_titile_back_first_default.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\btn_titile_back_first_default.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_click.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_click.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\rect_complete.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\rect_complete.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_mine_item.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_mine_item.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\download_cancle_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\download_cancle_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\search_history_text_bg.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\search_history_text_bg.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\scrollbar_vertical_track.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\scrollbar_vertical_track.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\seekbar_progress_horizontal_holo_dark.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\seekbar_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_searchinput_btn.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_searchinput_btn.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\rect_progress.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\rect_progress.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_problem_item.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_problem_item.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\btn_click_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\btn_click_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\download_editor_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\download_editor_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\rect_pressed.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\rect_pressed.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_player_play.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_player_play.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_search_clear_btn.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_search_clear_btn.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_player_goprevious.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_player_goprevious.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_fill_transparency.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_fill_transparency.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_player_goforward.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_player_goforward.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\checkbox_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\download_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\download_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_player_goback.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_player_goback.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_search_submit_btn.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_search_submit_btn.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\lv_bottom_gradient_bg.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\lv_bottom_gradient_bg.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_local_add.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_local_add.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\add_down.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\add_down.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\scrollbar_vertical_thumb.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\scrollbar_vertical_thumb.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\video_pause_btn.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\video_pause_btn.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\load_progressbar_style.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\load_progressbar_style.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\progress_layer_list_default.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\progress_layer_list_default.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_player_pause.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_player_pause.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_player_back.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_player_back.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\vpi_tab_bg.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\vpi_tab_bg.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\download_allstart_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\download_allstart_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_actionbar_search.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_actionbar_search.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_item_click_bg.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_item_click_bg.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\pulltorefresh_up_arrow.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\pulltorefresh_up_arrow.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_orange.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_orange.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\pulltorefresh_down_arrow.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\pulltorefresh_down_arrow.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\vpi__tab_indicator.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\ViewPagerIndicatorLib\\build\\intermediates\\bundles\\default\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\download_allselect_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\download_allselect_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\mediacontroller_button.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\mediacontroller_button.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selected_background.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selected_background.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\setdiscovery.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\setdiscovery.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\rect_error.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\rect_error.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_refresh.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_refresh.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_add_app.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_add_app.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\download_delete_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\download_delete_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\scrubber_control_selector_holo.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\VitamioBundle4.2.2\\build\\intermediates\\bundles\\default\\res\\drawable\\scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\actionbar_tab_bg.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\actionbar_tab_bg.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_lv_item_click_bg.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_lv_item_click_bg.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_login_name_icon.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_login_name_icon.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\ad_selectable_background.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\ad_selectable_background.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\video_cancel_btn.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\video_cancel_btn.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\speech_background.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\speech_background.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\seekber_control_selector_holo.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\seekber_control_selector_holo.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\download_allpause_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\download_allpause_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\add_delete.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\add_delete.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_btn_upgrade.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\selector_btn_upgrade.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\add_video.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\add_video.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\scrubber_progress_horizontal_holo_dark.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\VitamioBundle4.2.2\\build\\intermediates\\bundles\\default\\res\\drawable\\scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\circle.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\customdialog_selector.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\customdialog_selector.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\release\\drawable\\progress_layer_list.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\drawable\\progress_layer_list.xml"
+    }
+]

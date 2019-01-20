@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\selector_tab_textview.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\bundles\\debug\\res\\color\\selector_tab_textview.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\selector_wifilist_text.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\bundles\\debug\\res\\color\\selector_wifilist_text.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__light_theme.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\ViewPagerIndicatorLib\\build\\intermediates\\bundles\\default\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\vpi__dark_theme.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\ViewPagerIndicatorLib\\build\\intermediates\\bundles\\default\\res\\color\\vpi__dark_theme.xml"
+    }
+]

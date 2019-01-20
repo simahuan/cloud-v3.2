@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/item_ic_check_on_orgi" android:state_checked="true"/>
+    <item android:drawable="@drawable/item_ic_check_off_orgi"/>
+    <!-- <item android:drawable="@drawable/upload_choosed" android:state_checked="true"/>
+    <item android:drawable="@drawable/upload_unchoosed"/> -->
+
+</selector>

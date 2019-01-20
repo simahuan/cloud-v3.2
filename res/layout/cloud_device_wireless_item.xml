@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:paddingTop="1dp"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/line_bg" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp" >
+
+        <ImageView
+            android:id="@+id/ivWifiState"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:src="@drawable/equipment_wifi_good" />
+
+        <ImageView
+            android:id="@+id/ivEncryptPwd"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="17dp"
+            android:focusable="false"
+            android:src="@drawable/equipment_wifi_password" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ivWifiState"
+            android:focusable="false"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="WIFI名称"
+                android:textColor="@color/blacklight"
+                android:textSize="@dimen/txt_16" />
+
+            <TextView
+                android:id="@+id/txtDescrible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="已保存,通过WPA/WPA2保护"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/txt_12" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

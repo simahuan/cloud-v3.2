@@ -1,0 +1,122 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+#基本配置
+-ignorewarnings
+-optimizationpasses 5  
+-dontusemixedcaseclassnames  
+-dontskipnonpubliclibraryclasses  
+-dontpreverify  
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+-keepattributes *Annotation*  
+-keepattributes Signature
+
+#android jar
+-keep public class * extends android.app.Fragment
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class * extends android.support.v4.**
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keep class * extends java.lang.annotation.Annotation{*;}
+-keep class * extends android.view.View {*;}
+-keep class * implements android.os.Parcelable {public static final android.os.Parcelable$Creator *;}
+-keep class * implements java.io.Serializable {*;}
+
+-keep class android.support.v4.** { *; }    
+-dontwarn android.support.v4.**  
+
+#keepclasseswithmembernames
+-keepclasseswithmembernames class * {native <methods>;}
+-keepclasseswithmembernames class * {public <init>(android.content.Context, android.util.AttributeSet);}
+-keepclasseswithmembernames class * {public <init>(android.content.Context, android.util.AttributeSet, int);}
+-keepclasseswithmembers class * {public <init>(android.content.Context);}
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-dontshrink
+-dontoptimize
+-dontwarn android.webkit.WebView
+-dontwarn com.umeng.**
+-keepattributes Exceptions,InnerClasses,Signature
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+
+-keep public interface com.umeng.socialize.**
+-keep public interface com.umeng.socialize.sensor.**
+-keep public interface com.umeng.scrshot.**
+-keep public class com.umeng.socialize.* {*;}
+-keep class com.umeng.scrshot.**
+-keep class com.umeng.socialize.sensor.**
+-keep public class javax.**
+-keep public class android.webkit.**
+
+-keep public class com.wefi.zhuiju.R$*{public static final int *;}
+-keep public class com.viewpagerindicator.R$*{public static final int *;}
+-keep class **.R$* {*;}
+
+
+#引用的libs
+-libraryjars ../PinShengLib/libs/commons-beanutils-1.7.0.jar
+-libraryjars ../PinShengLib/libs/commons-codec-1.4.jar
+-libraryjars ../PinShengLib/libs/commons-lang-2.4.jar
+-libraryjars ../PinShengLib/libs/commons-logging-1.1.jar
+-libraryjars ../PinShengLib/libs/dom4j-1.6.1.jar
+-libraryjars ../PinShengLib/libs/jdom.jar
+-libraryjars ../PinShengLib/libs/wxb_token.jar
+-libraryjars ../PinShengLib/libs/jaxen-1.1.1.jar
+-libraryjars ../PinShengLib/libs/xUtils-2.6.14.jar
+-libraryjars ../PinShengLib/libs/android-support-v4.jar
+-libraryjars ../PinShengLib/libs/wxbrouter_trunk_1.0.7.jar
+
+-libraryjars ../PinShengLib/libs/umeng/umeng-analytics-v5.4.1.jar
+-libraryjars ../PinShengLib/libs/umeng/com.umeng.message.lib.jar
+
+#libs keep
+-keep class com.animoto.android.views.** { *; }
+-keep class org.apache.commons.** { *; }
+-keep class org.dom4j.** { *; }
+-keep class JDOMAbout.class
+-keep class org.jdom.** { *; }
+-keep class cn.token.** { *; }
+-keep class org.jaxen.** { *; }
+-keep class org.w3c.dom.** { *; }
+-keep class com.lidroid.** { *; }
+-keep class android.support.** { *; }
+
+#umeng
+-keep class com.umeng.** { *; }    
+-keep class com.umeng.analytics.** { *; }    
+-keep class com.umeng.common.** { *; }    
+-keep class com.umeng.newxp.** { *; }
+
+#vitamio
+-keep class io.vov.utils.** { *; }
+-keep class io.vov.vitamio.** { *; }

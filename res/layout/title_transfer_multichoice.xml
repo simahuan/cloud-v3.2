@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/multiChoiceTitleLayout"
+    android:layout_height="66dp"
+    android:background="#5BA5FE"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/txtCancel"
+        style="@style/TextView.BarTitle.Action"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="取消" />
+
+    <TextView
+        android:id="@+id/txtSelectedCount"
+        style="@style/TextView.BarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="已选定 0 个" />
+
+    <TextView
+        android:id="@+id/txtSelectAll"
+        style="@style/TextView.BarTitle.Action"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="全选" />
+
+</RelativeLayout>

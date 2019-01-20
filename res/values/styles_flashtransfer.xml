@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+       <style name="TabIndicator" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:textSize">14sp</item>
+        <!-- <item name="android:textColor">#333333</item> -->
+        <item name="android:textColor">@drawable/tab_indicator_color</item>
+        <item name="android:background">@drawable/lantransfer_tab</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/device_gray_bg"
+        android:paddingBottom="10dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="设备列表"
+        android:textColor="@color/device_black"
+        android:textSize="@dimen/txt_16" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/line_bg" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lstDevice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/line_bg"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"/>
+
+    <RelativeLayout
+        android:id="@+id/errorLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        	<View 
+        	    android:id="@+id/middle"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="1dp"
+        	    android:layout_margin="10dp"
+        	    android:layout_centerInParent="true"/>
+        
+            <TextView 
+                android:id="@+id/er"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_above="@+id/middle"
+                android:textColor="#999999"
+                android:textSize="16sp"
+                android:text="没有查找到相关设备"/>
+            <Button 
+	            android:id="@+id/btnRefresh"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:minWidth="100dp"
+	            android:layout_below="@+id/middle"
+	            android:text="重新查找"
+	            android:background="@drawable/setting_refresh_network_bg"
+	            android:padding="5dp"
+	            android:layout_centerInParent="true"
+	            android:textColor="#FFFFFF"
+	            />
+    </RelativeLayout>
+</LinearLayout>

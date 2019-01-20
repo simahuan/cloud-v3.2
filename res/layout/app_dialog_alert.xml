@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line_base_bg"
+    android:minWidth="320dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="@color/setting_item_text_color"
+        android:textSize="@dimen/dialog_title_text_size" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:minHeight="72dp"
+            android:padding="5dip"
+            android:text="内容"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:divider="@drawable/dialog_alert_divider"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <Button
+            android:id="@+id/negativeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_selector"
+            android:singleLine="true"
+            android:text="取消"
+            android:textColor="@color/dialog_button_text_color"
+            android:textSize="@dimen/dialog_button_text_size" />
+
+        <Button
+            android:id="@+id/positiveButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_selector"
+            android:singleLine="true"
+            android:text="确定"
+            android:textColor="@color/dialog_button_text_color"
+            android:textSize="@dimen/dialog_button_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

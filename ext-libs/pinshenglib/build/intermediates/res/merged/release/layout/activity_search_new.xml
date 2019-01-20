@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dominant_background2"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_search_new" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fg_history_hot_fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true">
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fg_history_fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true">
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fg_fuzzy_fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fg_result_fl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true" >
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

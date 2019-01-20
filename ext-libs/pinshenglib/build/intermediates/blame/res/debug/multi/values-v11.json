@@ -1,0 +1,66 @@
+[
+    {
+        "outputFile": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 94,
+                    "endOffset": 294
+                },
+                "from": {
+                    "file": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 423,
+                        "endColumn": 95,
+                        "endOffset": 514
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 299,
+                    "endColumn": 98,
+                    "endOffset": 393
+                },
+                "from": {
+                    "file": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 322,
+                        "endColumn": 95,
+                        "endOffset": 417
+                    }
+                }
+            }
+        ]
+    }
+]

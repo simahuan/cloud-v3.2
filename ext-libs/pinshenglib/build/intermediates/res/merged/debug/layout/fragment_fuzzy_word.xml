@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/dominant_background2"
+              android:clickable="true"
+              android:orientation="vertical"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              tools:context="com.wefi.zhuiju.activity.follow.searchnew.HistoryWordFragment">
+
+
+    <ListView
+        android:id="@+id/fuzzy_word_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#DBDBDC"
+        android:dividerHeight="2dp"
+        android:scrollbarFadeDuration="0">
+    </ListView>
+    <View
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#DBDBDC"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

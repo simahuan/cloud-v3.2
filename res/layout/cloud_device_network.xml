@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rgHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="无线中继"
+                android:textColor="@color/blacklight"
+                android:textSize="@dimen/txt_18" />
+
+            <TextView
+                android:id="@+id/rbWirelessConn"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/item_ic_forward"
+                android:drawablePadding="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:gravity="center_vertical|right"
+                android:text=""
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/txt_14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/line_bg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="有线连接"
+                android:textColor="@color/blacklight"
+                android:textSize="@dimen/txt_18" />
+
+            <TextView
+                android:id="@+id/rbWireledConn"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/item_ic_forward"
+                android:drawablePadding="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:gravity="center_vertical|right"
+                android:text=""
+                android:textColor="@color/txt_gray"
+                android:textSize="@dimen/txt_14" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/line_bg" />
+    </LinearLayout>

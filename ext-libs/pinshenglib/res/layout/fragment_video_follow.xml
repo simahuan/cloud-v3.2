@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/application_background"
+    android:orientation="vertical"
+    android:textColor="@drawable/application_textcolor" >
+
+    <include layout="@layout/actionbar_base_pisen" />
+
+    <com.wefi.zhuiju.customview.pulltorefreshlistview.PullToRefreshListView
+        android:id="@+id/plays_ptrlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/white"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+       ></com.wefi.zhuiju.customview.pulltorefreshlistview.PullToRefreshListView>
+
+    <RelativeLayout
+        android:id="@+id/empty_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/play_empty_add_bg"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/empty_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/empty_add_play"
+                android:text="添加新剧"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

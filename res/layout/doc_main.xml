@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 顶部 -->
+
+    <include layout="@layout/actionbar_header" />
+    <!-- 中间 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/docIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:clickable="true"
+            android:src="@drawable/file_type_word" />
+
+        <TextView
+            android:id="@+id/docName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ProgressBar
+            android:id="@+id/docProgressBar"
+            style="@style/ProgressBar_Mini"
+            android:layout_width="250dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/docCapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="0MB/0MB"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnOpenDoc"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/doc_dowload_open_button"
+            android:text="打开"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

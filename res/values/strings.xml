@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pisen Cloud</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="record_dialog_title">是否保存录音文件 ？</string>
+    <string name="record_dialog_button_ok">确定</string>
+    <string name="redord_dialog_button_cancel">取消</string>
+    <string name="redord_dialog_message">是否保存录音文件</string>
+    <string name="download_ing_count">下载中（%1$d）</string>
+    <string name="upload_ing_count">上传中（%1$d）</string>
+    <string name="transfer_complete_count">已完成（%1$d）</string>
+    <string name="transfer_selected_count">已选定 %1$d 个</string>
+    <string name="transfer_download_path">文件下载至：%1$s</string>
+    <string name="transfer_help_first">第一步:</string>
+    <string name="transfer_help_shark">请苹果设备%1$s寻找朋友</string>
+    <string name="transfer_help_second">第二步:</string>
+    <string name="transfer_help_third">第三步:</string>
+    <string name="img_download">下载</string>
+    <string name="img_delete">删除</string>
+    <string name="img_detail">详情</string>
+
+    <!-- 设备 -->
+
+    <string name="dev_unconnected">设备未连接</string>
+    <string name="dev_requesting">正在获取…</string>
+    <string name="dev_wifi_connected">[已连接]</string>
+    <string name="dev_search_timeout">扫描设备超时</string>
+    <string name="dev_unconnected_tip">设备未连接，请先连接设备</string>
+    <string name="dev_requesting_devmode">正在获取设备型号</string>
+    <string name="dev_switch">切换设备</string>
+    <string name="dev_shutdown">关闭设备</string>
+    <string name="dev_restart">重启设备</string>
+    <string name="dev_setwifi">WIFI设置</string>
+    <string name="dev_setconnect">联网设置</string>
+    <string name="dev_storage_space">存储空间</string>
+    <string name="dev_firmware_upgrade">固件升级</string>
+    <string name="dev_ssid">SSID</string>
+    <string name="dev_reset">恢复出厂</string>
+    <string name="dev_router_mgr">路由器管理</string>
+    <string name="dev_upgrade_checkup">检查更新</string>
+    <string name="dev_upgrade_download">下载更新</string>
+    <string name="dev_upgrade_execute">立即更新</string>
+    <string name="dev_upgrade_execute_tip">1.升级前，请保证设备有充足电量,升级过程中保证设备不断电。\n2.升级中,不要重启或关闭设备。\n3.固件升级过程可能需要3-5分钟，请耐心等待。</string>
+    <string name="dev_upgrade_execute_wait">正在进行固件升级\n请在路由器蓝灯停止闪烁后重新连接</string>
+    <string name="dev_upgrade">检查是否有最新固件可升级</string>
+    <string name="dev_default_deviceLoginPwd">请输入您的管理密码</string>
+
+    <!-- 闪电互传 -->
+    <string name="flashtransfer_selected_count">闪电互传(%1$s)</string>
+    <string name="flashtransfer_count_music">共%1$s首音乐</string>
+    <string name="flashtransfer_count_file">共%1$s个文件</string>
+    <string name="flashtransfer_count_apk">共%1$s个应用</string>
+
+    <!-- zuiju -->
+    <string name="teleplay_no_router">不是您打开的方式不对\n是真心没有找到您的追剧设备\n您还可以选择:</string>
+    <!-- cloud_setting -->
+    <string name="settings_navigation">更多通用导航</string>
+    <string name="settings_submit">提交</string>
+    <string name="settings_home_nick_name">请输入昵称</string>
+    <string name="settings_home_weixin_public_no">微信公众号</string>
+    <string name="settings_home_micro_mall">品胜商城</string>
+    <string name="settings_home_scan_install">扫码安装</string>
+    <string name="settings_home_recommend_friend">推荐给好友</string>
+    <string name="settings_home_encourage_us">鼓励一下我们</string>
+    <string name="settings_home_help">使用帮助</string>
+    <string name="settings_home_more">更多</string>
+    <string name="settings_home_about">关于</string>
+    <string name="settings_back">返回</string>
+    <string name="settings_about_version_update">版本更新</string>
+    <string name="settings_about_service_term">服务条款</string>
+    <string name="settings_about_contact_customer_service">联系客服</string>
+    <string name="settings_about_feedback">意见反馈</string>
+    <string name="settings_about_current_version">Pisen Cloud 2.0</string>
+    <string name="settings_setting_tv_show">追剧设置</string>
+    <string name="settings_setting_newmsg_recv">接收新消息提醒</string>
+    <string name="settings_setting_exchanging_auto_recv">闪电互传自动接收</string>
+    <string name="settings_setting_exchanging_auto_lead_pic">闪电互传自动导入图片</string>
+    <string name="settings_setting_exchanging_auto_lead_video">闪电互传自动导入视频</string>
+    <string name="settings_setting_clear_cache">清空缓存</string>
+    <string name="settings_setting_auto_compute_cache">自动计算缓存</string>
+    <string name="settings_setting_feedback_advise">请输入您的意见或建议，这将对我们意义非凡......</string>
+    <string name="settings_setting_feedback_name">您的姓名(选填)</string>
+    <string name="settings_setting_feedback_email">邮箱或手机号(选填)</string>
+    <string name="settings_weixin_public_no">扫描二维码即可关注品胜官方微信</string>
+    <string name="settings_scan_install">扫描二维码直接下载PisenCloud</string>
+    <string name="network_disconnect">您的网络不太顺畅哦~</string>
+    <string name="settings_pls_input_nickname">请输入昵称</string>
+    <string name="settings_setting_shared">"【全新路由器App体验】 下载了#Pisen Cloud#，拥有云分享、云音乐、云视频及即拍即传等特色功能，要了解更多实用功能，请@品胜电子 。下载地址 ：http://cloud.pisen.com.cn/Mobile/Home/CloudIndex"</string>
+    <string name="settings_setting_shared_test">"【全新路由器App体验】下载了#Pisen Cloud#,拥有云分享、云音乐、云视频及即拍即传等特色功能,要了解更多实用功能,请@品胜电子 。下载地址 ：http://cloud.pisen.com.cn/App/PisenCloudBeta"</string>
+    <string name="welcome_experience_immediately">立即体验</string>
+    <string name="welcome_version">Pisen Cloud %1$s</string>
+    <!-- upgrade -->
+    <string name="UiVersion">1.0.1</string>
+
+    <!-- vitamio 字段 -->
+    <string name="vitamio_library_app_name">VitamioLibrary</string>
+    <string name="vitamio_init_decoders">初始化中...</string>
+    <string name="vitamio_init_decoders_failed">初始化失败</string>
+    <string name="permission_group_tools_label">Vitamio tools</string>
+    <string name="permission_group_tools_description">Access Vitamio package and resources.</string>
+    <string name="permission_receive_messages_label">Receive Vitamio messages</string>
+    <string name="permission_receive_messages_description">Receive all broadcasts from Vitamio service.</string>
+    <string name="permission_write_providers_label">Write Vitamio providers</string>
+    <string name="permission_write_providers_description">Delete, update or create new items in Vitamio providers.</string>
+    <string name="VideoView_error_title">Cannot play video</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+        this device.</string>
+    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+
+    <!-- 照相开始 -->
+    <string name="intro_text">Touch to focus, and press the blue camera button to take photos. For more help, click Online help from Settings. Open Camera is completely free. If you like this app, please consider buying my donate app :) (see link in Settings, or Online help).\n\nPrivacy Policy: Location permission is required for geotagging, but this is disabled by default. If enabled, your location is encoded in the saved files (and it is only used for this purpose).\n\n(This message won\'t show again.)</string>
+    <string name="intro_ok">OK (This message won\'t show again)</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+    <string name="choose_save_location">Choose save location:</string>
+    <string name="clear_folder_history">Clear folder history</string>
+    <string name="clear_folder_history_question">Clear folder history?</string>
+    <string name="changed_save_location">Changed save location to:</string>
+    <string name="stopped_recording_video">Stopped recording video</string>
+    <string name="repeats_to_go">repeats to go</string>
+    <!-- intentionally starts lower case -->
+    <string name="failed_to_reconnect_camera">Failed to reconnect to camera</string>
+    <string name="video_may_be_corrupted">Error, video file may be corrupted</string>
+    <string name="not_supported">not supported on your device</string>
+    <!-- intentionally starts lower case -->
+    <string name="video_error_unknown">Unknown error, video halted</string>
+    <string name="video_error_server_died">Server died, video halted</string>
+    <string name="video_max_duration">Video reached max duration</string>
+    <string name="video_max_filesize">Video reached max filesize</string>
+    <string name="exposure_compensation">Exposure compensation</string>
+    <string name="front_camera">Front Camera</string>
+    <string name="back_camera">Back Camera</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="exposure_locked">Exposure Locked</string>
+    <string name="exposure_unlocked">Exposure unlocked</string>
+    <string name="cancelled_timer">Cancelled timer</string>
+    <string name="started_timer">Started timer</string>
+    <string name="failed_to_save_video">Failed to save video file</string>
+    <string name="failed_to_record_video">Failed to record video</string>
+    <string name="started_recording_video">Started recording video</string>
+    <string name="sorry">Sorry</string>
+    <string name="failed_to_save_image">Failed to save image file</string>
+    <string name="failed_to_save_photo">Failed to save photo</string>
+    <string name="taking_photo">Taking photo</string>
+    <string name="failed_to_take_picture">Failed to take picture</string>
+    <string name="photo_deleted">Photo deleted</string>
+    <string name="no_gallery_app">No gallery app available</string>
+    <string name="screen_is_locked">Screen is locked - swipe the screen to unlock</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="angle">Angle</string>
+    <string name="direction">Direction</string>
+    <string name="failed_to_open_camera_1">FAILED TO OPEN CAMERA.</string>
+    <string name="failed_to_open_camera_2">CAMERA MAY BE IN USE</string>
+    <string name="failed_to_open_camera_3">BY ANOTHER APPLICATION?</string>
+    <string name="zoom">Zoom</string>
+    <string name="free_memory">Free memory</string>
+    <string name="screen_lock_message">[LOCKED: Swipe to unlock]</string>
+    <string name="preference_category_camera_effects">Camera Effects</string>
+    <string name="preference_auto_stabilise">Auto-stabilise</string>
+    <string name="preference_auto_stabilise_summary">Images will be rotated so they are automatically level (photos only) (slower to take photos, and may fail on devices with too low memory)</string>
+    <string name="preference_color_effect">Apply a color effect</string>
+    <string name="preference_color_effect_summary">Applies the selected color effect to the photo</string>
+    <string name="preference_scene_mode">Apply a scene mode</string>
+    <string name="preference_scene_mode_summary">Optimise the photo for different scenes</string>
+    <string name="preference_white_balance">Set the white balance</string>
+    <string name="preference_white_balance_summary">Choose a setting to adjust the white balance</string>
+    <string name="preference_iso">Set the ISO</string>
+    <string name="preference_iso_summary">A higher value means more sensitive to light (may not work on some devices)</string>
+    <string name="preference_exposure">Set the exposure compensation</string>
+    <string name="preference_exposure_summary">Set to 0 for the default exposure compensation.</string>
+    <string name="preference_lock_orientation">Lock photo/video orientation</string>
+    <string name="preference_lock_orientation_summary">If set, the orientation of the device will be ignored, and the orientation of the photo/video will be with respect to the specified orientation.</string>
+    <string name="preference_face_detection">Face detection</string>
+    <string name="preference_face_detection_summary">Use face detection instead of focus areas.</string>
+    <string name="preference_category_camera_controls">Camera Controls</string>
+    <string name="preference_timer">Timer</string>
+    <string name="preference_timer_summary">Set a timer for the camera</string>
+    <string name="preference_timer_beep">Timer beep</string>
+    <string name="preference_timer_beep_summary">Beep when timer is counting down or for burst mode delay</string>
+    <string name="preference_burst_mode">Burst mode</string>
+    <string name="preference_burst_mode_summary">Take multiple photos in succession</string>
+    <string name="preference_burst_interval">Burst mode interval</string>
+    <string name="preference_burst_interval_summary">Delay (if any) between taking photos in burst mode</string>
+    <string name="preference_screen_camera_controls_more">More camera controls…</string>
+    <string name="preference_pause_preview">Pause after taking photo</string>
+    <string name="preference_pause_preview_summary">Pause the screen after taking a photo, with the option to share or delete the photo</string>
+    <string name="preference_shutter_sound">Shutter sound</string>
+    <string name="preference_shutter_sound_summary">Play a sound when taking a photo (requires Android 4.2 or greater to disable)</string>
+    <string name="preference_volume_keys">Volume keys</string>
+    <string name="preference_volume_keys_summary">Set behaviour for when volume keys are pressed</string>
+    <string name="preference_screen_gui">On screen GUI…</string>
+    <string name="preference_preview_size">Preview size</string>
+    <string name="preference_preview_size_summary">How to choose the preview size</string>
+    <string name="preference_ui_placement">UI placement</string>
+    <string name="preference_ui_placement_summary">Whether to have a left-handed or right-handed user interface</string>
+    <string name="preference_save_location">Save location</string>
+    <string name="preference_save_location_summary">Name of folder to save the photo/video files in (can also be a full path)</string>
+    <string name="preference_show_when_locked">Show camera when locked</string>
+    <string name="preference_show_when_locked_summary">If enabled, Open Camera will still show above any lockscreen (you\'ll still have to unlock to access Settings, Gallery etc)</string>
+    <string name="preference_lock_video">Lock screen when recording video</string>
+    <string name="preference_lock_video_summary">When recording video, the GUI will be locked to prevent accidentally stopping recording. Swipe the screen to unlock. Note that video recording will always stop if the app goes into background or the screen is blanked.</string>
+    <string name="preference_show_zoom">Show zoom</string>
+    <string name="preference_show_zoom_summary">Display the current camera zoom level on screen (when zoomed in)</string>
+    <string name="preference_show_zoom_controls">Show zoom -/+ controls</string>
+    <string name="preference_show_zoom_controls_summary">Show the -/+ buttons for zoom control</string>
+    <string name="preference_free_memory">Show free memory</string>
+    <string name="preference_free_memory_summary">Display the remaining device storage space on screen</string>
+    <string name="preference_show_angle">Show angle</string>
+    <string name="preference_show_angle_summary">Display the current device orientation angle on screen</string>
+    <string name="preference_show_angle_line">Show angle line</string>
+    <string name="preference_show_angle_line_summary">Display horizontal level line</string>
+    <string name="preference_show_geo_direction">Show compass direction</string>
+    <string name="preference_show_geo_direction_summary">Display the compass direction of the device on screen</string>
+    <string name="preference_grid">Show a grid</string>
+    <string name="preference_grid_summary">Display one of various grids</string>
+    <string name="preference_thumbnail_animation">Show thumbnail animation</string>
+    <string name="preference_thumbnail_animation_summary">Display moving thumbnail animation when taking a photo</string>
+    <string name="preference_max_brightness">Force maximum brightness</string>
+    <string name="preference_max_brightness_summary">Force screen display to be at maximum brightness, rather than device default</string>
+    <string name="preference_category_camera_quality">Photo and Video Settings</string>
+    <string name="preference_screen_camera_quality">Photo and video settings…</string>
+    <string name="preference_resolution">Camera resolution</string>
+    <string name="preference_resolution_summary">Set the resolution of photos taken by the camera</string>
+    <string name="preference_quality">Image quality</string>
+    <string name="preference_quality_summary">Set the image quality of saved photo images (recommended value is 90%%)</string>
+    <string name="preference_location">Store location data (Geotagging)</string>
+    <string name="preference_location_summary">Store GPS location data in the photos/videos</string>
+    <string name="video_quality">Video resolution</string>
+    <string name="video_quality_summary">Set the resolution of videos</string>
+    <string name="preference_force_video_4k">Force 4K UHD video (experimental)</string>
+    <string name="preference_force_video_4k_summary">Enable 3840x2160 resolution for video recording on back camera - this will only work if your device supports it, and may crash if not!</string>
+    <string name="preference_video_bitrate">Video bitrate (approx)</string>
+    <string name="preference_video_bitrate_summary">Set the approximate bitrate of videos (higher means better quality, but takes up more disk space; may cause video recording to fail if bitrate not supported)</string>
+    <string name="preference_video_fps">Video frame rate (approx)</string>
+    <string name="preference_video_fps_summary">Set the frame rate (FPS) of videos (may be approx, not guaranteed to be achieved, and may cause video recording to fail if frame rate not supported)</string>
+    <string name="preference_video_max_duration">Maximum duration of video</string>
+    <string name="preference_video_max_duration_summary">The video recording will stop after the specified duration.</string>
+    <string name="preference_video_restart">Restart video after max duration</string>
+    <string name="preference_video_restart_summary">If the video has stopped after hitting the maximum duration (if set), this option will make the video restart, up to the specified number of times.</string>
+    <string name="preference_record_audio">Record audio</string>
+    <string name="preference_record_audio_summary">Record audio when recording video</string>
+    <string name="preference_record_audio_src">Audio source</string>
+    <string name="preference_record_audio_src_summary">Microphone to use for recording audio</string>
+    <string name="preference_video_flash">Flash while recording video</string>
+    <string name="preference_video_flash_summary">If enabled, flash will switch on/off when recording video (can be used to tell camera is still recording at a distance).</string>
+    <string name="preference_category_online">Misc</string>
+    <string name="preference_online_help">Online help</string>
+    <string name="preference_donate">Donate to support development</string>
+    <string name="preference_donate_summary">If you like this app, please consider making a donation. You can do this by purchasing my "donation app" - click this option will open up the page for my donation app. Thanks!</string>
+    <string name="preference_about">About</string>
+    <string name="preference_about_summary">App and debug information</string>
+    <string name="about_ok">OK</string>
+    <string name="about_available">Available</string>
+    <string name="about_not_available">Not available</string>
+    <string name="about_copy_to_clipboard">Copy to clipboard</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="exposure">Exposure</string>
+    <string name="exposure_lock">Exposure Lock</string>
+    <string name="focus_mode">Focus Mode</string>
+    <string name="flash_mode">Flash Mode</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="switch_video">Switch Video</string>
+    <string name="trash">Delete Last Picture</string>
+    <string name="sharephoto">Share Photo</string>
+    <!-- 照相结束 -->
+
+
+    <!-- <string name="transfer_shark"><font color=\"#666666\">请苹果设备</font><font color=\"#0073FF\"> &#x0020; &quot;摇一摇&quot; &#x0020;</font><font color=\"#666666\">寻找朋友</font></string> -->
+    <string name="service_terms">\t\t 广东品胜电子股份有限公司（以下简称品胜）提醒您： 在使用品胜云路由等相关应用前，请您务必仔细阅读并透彻理解本声明。您可以选择不使用品胜云路由，但如果您使用品胜云路由，您的使用行为将被视为对本声明全部内容（包括品胜对本声明随时所做任何修改）的认可。
+    \n\t\t 1. 您明确同意，您需独自承担使用许可应用产生的全部风险。
+    \n\t\t 2. 除法律法规有明确规定外，品胜对许可应用不作任何明示或暗示的保证，包括但不限于许可应用的适用性、没有错误或疏漏、持续性、准确性、可靠性、适用于某一特定用途。同时，品胜也不对许可应用所涉及的技术及信息的有效性、准确性、正确性、可靠性、质量、稳定、完整和及时性作出任何承诺和保证。
+    \n\t\t 3. 品胜云路由不就网络的中断或无法运作、技术故障、计算机错误或病毒、信息损坏或丢失以及其它在品胜云路由合理控制范围之外的原因而产生的其他任何性质的破坏而向您或任何第三方承担赔偿责任。
+    \n\t\t 4. 使用许可应用会受到各个网络环节不稳定因素的影响，包括但不限于因不可抗力、黑客攻击、系统不稳定、您所处位置、您的设备终端处于关闭状态、信息内容非法以及其他任何网络、技术、通信线路、信息安全管理措施等原因而造成许可应用无法正常使用，您同意自行承担以上风险，品胜不承担任何责任。
+    \n\t\t 5. 在任何情况下，由于您因下述任一情况所引起或与此有关的任何人身伤害或任何附带的、特别的、间接的或后果性的损害赔偿，包括但不限于利润损失、资料损失、业务中断的损害赔偿或任何其它商业损害赔偿或损失。上述伤害或损失，无论因何原因产生，也无论品胜是否知悉该等伤害或损失可能发生，品胜均无需为此承担任何责任：
+    	1) 、使用或未能使用许可应用；
+    	2) 、第三方未经批准的使用许可应用或更改您的数据；
+    	3) 、使用许可应用进行的行为产生的费用及损失；
+    	4) 、您对许可应用的误解；
+   	 	5) 、任何非因品胜云路由的原因而引起的与许可应用有关的其它损失。
+    \n\t\t 6. 非经品胜或品胜授权开发并正式发布的其它任何由许可应用衍生的应用均属非法，使用此类应用，可能导致不可预知的风险，由此产生的一切法律责任与纠纷与品胜无关，品胜并有权中止、终止使用许可和/或其他一切服务。
+    \n\t\t 7. 您与其他使用许可应用的用户之间通过许可应用进行时，因您受误导或欺骗而导致或可能导致的任何心理、生理上的伤害以及经济上的损失，应由过错方依法承担所有责任，品胜不对此承担任何责任。</string>
+
+    <!-- 软件升级 -->
+    <string name="appupgrade_text_version">版本号:V%s</string>
+    <string name="appupgrade_text_hint_title">温馨提示</string>
+    <string name="appupgrade_text_hint_wifi">您目前使用的是非wifi网络,确定进行升级吗？</string>
+    <string name="appupgrade_text_text_cancel">取消</string>
+    <string name="appupgrade_text_text_ok">确定</string>
+    <string name="appupgrade_text_text_resourcenotfount">没有找到资源</string>
+    <string name="appupgrade_text_upgrade">品胜云版本升级</string>
+    <string name="appupgrade_text_newapp">品胜云已经推出最新App版本</string>
+    <string name="appupgrade_text_upgradebutton">一键升级</string>
+    <string name="appupgrade_text_downloading">正在下载最新版本安装包</string>
+    <string name="appupgrade_text_downloadfail">Oops! 固件更新失败!</string>
+    <string name="appupgrade_text_retrybutton">重试</string>
+    <string name="appupgrade_text_downloading_pgb">App下载中</string>
+    <!-- 软件升级结束 -->
+
+    <string name="file_not_exist">文件不存在 ！</string>
+    <string name="storage_insufficient_hint">手机存储空间已不足，请及时清理 ！</string>
+
+</resources>

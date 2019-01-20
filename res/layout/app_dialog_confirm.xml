@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="320dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="内容"
+        android:textColor="@color/setting_item_text_color"
+        android:textSize="@dimen/dialog_content_text_size" 
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/confirm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity = "center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="标题"
+            android:textColor="@color/setting_item_text_color"
+            android:textSize="@dimen/dialog_title_text_size" />
+
+        <TextView
+            android:id="@+id/txtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:padding="5dip"
+            android:text="内容"
+            android:textSize="@dimen/dialog_content_text_size"
+            android:textColor="#666666" 
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

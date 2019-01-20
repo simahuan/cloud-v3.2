@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+       <!-- (公共)基础颜色,可扩展(不建议修改) -->
+	<color name="black">#000000</color>
+	<color name="gray">#808080</color>
+	<color name="red">#FF0000</color>
+	<color name="gold">#FFD700</color>
+	<color name="yellow">#FFFF00</color>
+	<color name="green">#008000</color>
+	<color name="blue">#0000FF</color>
+	<color name="purple">#800080</color>
+	<color name="pink">#FFC0CB</color>
+	<color name="orange">#FFA500</color>
+	<color name="lemonyellow">#FFFACD</color>
+	<color name="graywhite">#F5F5F5</color>
+	<color name="grayslate">#708090</color>
+	<color name="graylight">#F0F8FF</color>
+	<color name="blacklight">#666666</color>
+	<color name="whitelight">#A9A9A9</color>
+	<color name="lightblue">#0083FF</color>
+	<color name="darkblue">#c0044081</color>
+	
+	<color name="line_bg">#CCCCCC</color>
+	<color name="line_white_bg">#FFFFFF</color>
+	<color name="line_base_bg">#F9F9F9</color>
+	<color name="line_button_bg">#F3F3F3</color>
+	
+	<color name="device_blue_light">#1966DB</color>
+	<color name="device_black">#333333</color>
+	<color name="device_gray_bg">#F9F9F9</color>
+	<color name="device_graywhite_txt">#94B5F5</color>
+	<color name="device_lightwhite_txt">#B3CEF8</color>
+	<color name="device_lightblue_txt">#0073FF</color>
+	<!-- (公共)全透明与半透明,可添加指定颜色透明 -->
+    <color name="full_transparent">#00000000</color>
+    <color name="half_transparent">#aa000000</color>
+    <color name="quert_transparent">#cc000000</color>
+    
+    <color name="frame_button_text_nor">#033a5c</color>
+    <color name="frame_button_text_select">#FFFFFF</color>
+    
+    <!-- 宫格,列表(子视图)颜色定义,可扩展 -->
+    <color name="griditem_transparent">#00000000</color>
+    <color name="griditem_black">#ff000000</color>
+    <color name="griditem_white">#ffffffff</color>
+    <color name="griditem_blue">#0e5986</color>
+    <color name="griditem_gray">#ff9da19e</color>
+    <color name="griditem_green">#ffe3ffc6</color>
+    
+   <drawable name="backcolor1">#00000000</drawable>
+   <drawable name="backcolor2">#1b8fda</drawable>
+   
+   <!-- tab选中时颜色 -->
+   <color name="tabstrip_indicator">#0073ff</color>
+   <!-- 灰色字体颜色 -->
+   <color name="txt_gray">#999999</color>
+   <!-- listview头背景颜色 -->
+   <color name="header_bg_gray">#ededed</color>
+   <!-- listview divider -->
+   <color name="divider_gray">#ccc</color>
+   <!-- 传输纪录item normal颜色 -->
+   <color name="transferrecord_item_normal">#333</color>
+   <!-- 传输纪录item disable颜色 -->
+   <color name="transferrecord_item_disable">#999</color>
+   <!-- 传输纪录选择框文件颜色 -->
+   <color name="singlechoice_item_gray">#666</color>
+   
+   <color name="transparent">#00000000</color>
+   
+   <color name="navibar_bg">#ff0073FF</color>
+   
+   <!-- TabIndicator -->
+   <color name="tabindicator_checked">#0073FF</color>
+   <color name="tabindicator_unchecked">#999999</color>
+</resources>

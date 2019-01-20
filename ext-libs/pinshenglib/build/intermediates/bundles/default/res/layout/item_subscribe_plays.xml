@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp" >
+
+    <com.wefi.zhuiju.customview.cropimageview.ImageViewTopCrop
+        android:id="@+id/play_pic_iv"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/black"
+        android:scaleType="matrix"
+        android:src="@drawable/default_play_follow" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/bottom_shadow" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/play_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:text="极力的游戏 第四季"
+            android:textColor="@drawable/play_font_color"
+            android:textSize="@dimen/playlistitem_font_size" />
+
+        <TextView
+            android:id="@+id/play_updatecount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="更新至第7集 "
+            android:textColor="@drawable/play_font_color"
+            android:textSize="@dimen/play_update_font" />
+
+        <ImageView
+            android:id="@+id/play_new_iv"
+            android:layout_width="34dip"
+            android:layout_height="14.5dip"
+			android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dip"
+            android:layout_toLeftOf="@id/play_updatecount_tv"
+            android:src="@drawable/default_new"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

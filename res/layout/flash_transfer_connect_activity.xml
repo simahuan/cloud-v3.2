@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.pisen.router"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/networkStateShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/txtWifiTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/flashtransfer_wifi_icon"
+            android:text="当前网络:"
+            android:textColor="#0076FF"
+            android:textSize="@dimen/flashtransfer_text_size" />
+
+        <TextView
+            android:id="@+id/txtWifiName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/txtInviteInstall"
+            android:layout_toRightOf="@id/txtWifiTips"
+            android:singleLine="true"
+            android:text="暂无连接"
+            android:textColor="#0076FF"
+            android:textSize="@dimen/flashtransfer_text_size" />
+
+        <TextView
+            android:id="@+id/txtInviteInstall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/invite_install_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="邀请安装"
+            android:textColor="#0076FF"
+            android:textSize="@dimen/flashtransfer_text_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imgCreateAp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_ap_create" />
+
+        <TextView
+            android:id="@+id/txtCreateAp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="其他手机将加入\n我创建的连接"
+            android:textColor="#fff"
+            android:visibility="invisible"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/imgSearchAp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ic_ap_search" />
+
+        <TextView
+            android:id="@+id/txtSearchAp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="搜索其他手机"
+            android:visibility="invisible"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp" >
+
+        <ImageButton
+            android:id="@+id/imgInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_flashtransfer_apple" />
+
+        <ImageButton
+            android:id="@+id/ibtnRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_refresh"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/imgClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_flashtransfer_close" />
+    </RelativeLayout>
+
+    <com.pisen.router.ui.phone.flashtransfer.CreateApLayout
+        android:id="@+id/createApLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <com.pisen.router.ui.phone.flashtransfer.SearchDeviceLayout
+        android:id="@+id/searchDeviceLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

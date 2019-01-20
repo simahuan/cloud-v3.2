@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_voice_call.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_sent_voice_call.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_voice.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_received_voice.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_expression.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_expression.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_video.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_sent_video.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_voice_call.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_received_voice_call.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_text.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\context_menu_for_text.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_big_image.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\activity_show_big_image.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_picture.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_sent_picture.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_voice.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_sent_voice.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_message.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_sent_message.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_message.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_received_message.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_image.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\context_menu_for_image.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\expression_gridview.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\expression_gridview.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_video.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\context_menu_for_video.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_file.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_received_file.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_location.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_received_location.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\commom_back_btn.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\commom_back_btn.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_location.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_sent_location.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_voice.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\context_menu_for_voice.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_picture_new.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_sent_picture_new.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\context_menu_for_location.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\context_menu_for_location.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_picture.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_received_picture.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_video.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_received_video.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_sent_file.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_sent_file.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\debug\\layout\\row_received_picture_new.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\layout\\row_received_picture_new.xml"
+    }
+]

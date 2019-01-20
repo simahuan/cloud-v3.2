@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_list">
+        <item>回到主页</item>
+        <item>未登陆</item>
+        <item>设置上网</item>
+        <item>分享网络</item>
+        <item>4G设置</item>
+        <item>通用设置</item>
+    </string-array>
+
+</resources>

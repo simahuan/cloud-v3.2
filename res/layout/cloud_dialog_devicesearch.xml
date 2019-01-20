@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/half_transparent" >
+
+    <RelativeLayout
+        android:layout_width="190dp"
+        android:layout_height="190dp">
+
+        <com.pisen.router.common.view.CircleWaveView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/txtImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/equipment_finding"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/txtMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="设备查找中…"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/txt_16" />
+</LinearLayout>

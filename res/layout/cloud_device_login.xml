@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/equipment_storage_space_bg"
+    android:scrollbarStyle="outsideOverlay" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="40dp" >
+
+        <RelativeLayout
+            android:id="@+id/amitionLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp" >
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/equipment_circle" />
+
+            <ImageView
+                android:layout_width="147dp"
+                android:layout_height="147dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/menu_ic_device_connected" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="登录设备管理"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_20" />
+
+        <TextView
+            android:id="@+id/tvDeviceMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="管理设备需要您的授权才可以继续"
+            android:textColor="@color/device_graywhite_txt"
+            android:textSize="@dimen/txt_12" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="96dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/equipment_login_bg"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" >
+
+                    <ImageView
+                        android:layout_width="29dp"
+                        android:layout_height="29dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/equipment_user" />
+
+                    <TextView
+                        android:id="@+id/txtDeviceLoginUsr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="46dp"
+                        android:background="@color/full_transparent"
+                        android:enabled="false"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="PISEN"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_16" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_toRightOf="@+id/txtDeviceLoginUsr"
+                        android:enabled="false"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="(默认不可修改)"
+                        android:textColor="@color/device_lightwhite_txt"
+                        android:textSize="@dimen/txt_14" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" >
+
+                    <ImageView
+                        android:layout_width="29dp"
+                        android:layout_height="29dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/equipment_password" />
+
+                    <EditText
+                        android:id="@+id/etDeviceLoginPwd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="46dp"
+                        android:background="@color/full_transparent"
+                        android:hint="@string/dev_default_deviceLoginPwd"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/device_lightwhite_txt"
+                        android:textSize="@dimen/txt_16" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--
+                   <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/device_blue_light" />
+            -->
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnDeviceLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/equipment_upgrade_button"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_18" />
+    </LinearLayout>
+
+</ScrollView>

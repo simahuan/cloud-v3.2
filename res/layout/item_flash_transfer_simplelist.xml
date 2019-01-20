@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="63dp"
+    android:id="@+id/contentLayout"
+    android:paddingLeft="5dp"
+    android:paddingRight="13dp" >
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="63dp" />
+
+    <ImageView
+        android:id="@+id/imgType"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_marginLeft="13dp"
+        android:layout_toLeftOf="@+id/chkchoice"
+        android:layout_toRightOf="@id/imgType" 
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtFileName"
+            style="@style/TextView.TransferRecord.Item.Normal"
+            android:text="xxxxxxx.png" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:id="@+id/txtDate"
+                style="@style/TextView.TransferRecord.Item.Disable"
+                android:text="2014-04-11" />
+
+            <TextView
+                android:id="@+id/txtSize"
+                style="@style/TextView.TransferRecord.Item.Disable"
+                android:layout_marginLeft="13dp"
+                android:text="3.5M" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/chkchoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:button="@drawable/transferrecord_checkbox_multichoice_orginal" />
+
+</RelativeLayout>

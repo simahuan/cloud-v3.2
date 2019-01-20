@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".CameraActivity" >
+
+    <FrameLayout
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <FrameLayout
+        android:id="@+id/prefs_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <FrameLayout
+        android:id="@+id/locker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <!--
+        <ImageButton
+            android:id="@+id/ibtn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/camera_finish_style"
+            android:contentDescription="@string/switch_camera"
+            android:onClick="clickedBack"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/img_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="16dip"
+                android:background="@drawable/camera_rec_dot1"
+                android:visibility="gone" />
+           
+            <TextView
+                android:id="@+id/txt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
+                android:layout_toRightOf="@+id/img_mark"
+                android:text="00:00:00"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>        -->
+
+        <ImageButton
+            android:id="@+id/flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/camera_auto_style"
+            android:contentDescription="@string/flash_mode"
+            android:onClick="clickedFlash"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/switch_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:background="@drawable/camera_before_or_back_change_style"
+            android:contentDescription="@string/switch_camera"
+            android:onClick="clickedSwitchCamera"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp" >
+
+        <ImageButton
+            android:id="@+id/pause_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/camera_rec_pause"
+            android:scaleType="fitCenter"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/camera_take_play_bg" >
+
+            <ImageButton
+                android:id="@+id/take_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/camera_take"
+                android:contentDescription="@string/take_photo"
+                android:onClick="clickedTakePhoto"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/switch_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/camera_video_change_style"
+            android:onClick="clickedSwitchVideo"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:layout_marginTop="6dip"
+        android:text="00:00:00"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include 
+        layout="@layout/header_flashtransfer_count"
+        android:visibility="gone"
+        />
+    <ListView
+        android:id="@+id/lst"
+        android:layout_below="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ccc"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:overScrollMode="never"
+        android:paddingLeft="15dp"
+        android:scrollbarSize="4dp"
+        android:scrollbarThumbVertical="@drawable/flashtransfer_scrollbar_vertical_thumb"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="图片加载中..."
+        android:textColor="#999" />
+
+    <include
+        android:id="@+id/emptyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/content_empty" />
+
+</RelativeLayout>

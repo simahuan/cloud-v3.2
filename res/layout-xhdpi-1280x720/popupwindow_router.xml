@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	>
+   	
+   	<ImageView
+   	    android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuideRouter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/router_guide_router" 
+        android:scaleType="fitXY"
+        android:layout_marginTop="-1.4dp"
+        android:layout_marginLeft="-5dp" 
+        />
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuideCloud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-1.4dp"
+     	android:layout_marginRight="-5dp"
+        android:src="@drawable/router_guide_private_cloud"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuideRecord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/router_guide_transfer_record"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginLeft="-10dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+    
+</RelativeLayout>

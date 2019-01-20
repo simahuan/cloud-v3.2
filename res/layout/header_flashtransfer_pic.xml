@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_datepoint"
+        android:gravity="center"
+        android:text="4/16"
+        android:textColor="#fff"
+        android:textSize="11sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/txtselect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical|right"
+        android:minHeight="35dp"
+        android:minWidth="60dp"
+        android:paddingRight="20dp"
+        android:text="选择"
+        android:textColor="@color/tabstrip_indicator"
+        android:textSize="12sp" />
+
+</LinearLayout>

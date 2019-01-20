@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/resourceLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#5BA5FF"
+    android:minHeight="60dp"
+    android:orientation="horizontal" >
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/btnDownload"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/toolbar_ic_download"
+        android:padding="8dp"
+        android:text="下载"
+        android:textColor="@android:color/white" />
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/btnMove"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/movebtn"
+        android:padding="8dp"
+        android:text="移动"
+        android:textColor="@android:color/white" />
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/btnRename"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/renamebtn"
+        android:padding="8dp"
+        android:text="重命名"
+        android:textColor="@android:color/white" />
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/btnDelete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableTop="@drawable/toolbar_ic_delete"
+        android:padding="8dp"
+        android:text="删除"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.pisen.router"
+    android:id="@+id/llayoutFlashTransfer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/defaultNavLayout"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:background="@drawable/header_top"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageButton
+            android:id="@+id/ibtnRouter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/route" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/TextView.BarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="闪电互传" />
+
+        <ImageButton
+            android:id="@+id/ibtnRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/record_bg" 
+            />
+        <ImageView 
+            android:id="@+id/imgNewRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/transmission_new"
+            android:layout_alignRight="@+id/ibtnRecord"
+            android:layout_alignTop="@+id/ibtnRecord"
+            android:layout_marginTop="-8dp"
+            />
+    </RelativeLayout>
+
+    <include layout="@layout/flash_transfer_userlist"  android:id="@+id/usersLayout" android:visibility="visible"/>
+    <include layout="@layout/flash_transfer_count_send"  android:id="@+id/countSendLayout" android:visibility="gone"/>
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F6F6F6"
+        app:pstsDividerColor="@android:color/transparent"
+        app:pstsIndicatorColor="@color/tabstrip_indicator"
+        app:pstsIndicatorHeight="3dp"
+        app:pstsShouldExpand="true"
+        app:pstsUnderlineHeight="1dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/ibtnFlashTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_flashtransfer" />
+    </RelativeLayout>
+
+</LinearLayout>

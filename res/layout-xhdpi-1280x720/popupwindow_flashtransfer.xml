@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	>
+   	
+   	<ImageView
+   	    android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuideRecord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/flash_guide_record" 
+        android:scaleType="fitXY"
+        android:layout_marginRight="-1dp" 
+        android:layout_marginTop="-1.5dp"
+        />
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuideTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/flash_guide_transfer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-6dp"
+        android:layout_marginRight="-2dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+    
+</RelativeLayout>

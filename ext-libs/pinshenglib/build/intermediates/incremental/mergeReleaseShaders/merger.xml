@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\git_test\pisen_project_items\151028_PisenCloud\PisenCloud-v3.0\ext-libs\pinshenglib\src\main\shaders"/></dataSet><dataSet config="release"><source path="D:\git_test\pisen_project_items\151028_PisenCloud\PisenCloud-v3.0\ext-libs\pinshenglib\build-types\release\shaders"/></dataSet></merger>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imgBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/flashtransfer_search_bg" />
+
+    <ImageView
+        android:id="@+id/imgLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/flashtransfer_search_light" />
+    <TextView 
+        android:id="@+id/txtTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

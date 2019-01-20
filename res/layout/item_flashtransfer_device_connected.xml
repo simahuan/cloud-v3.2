@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="13dp" >
+
+    <ImageView
+        android:id="@+id/imgPhoneType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_andorid" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <FrameLayout
+            android:id="@+id/iconLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imgHead"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_datepoint" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="27dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iconLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="xxxx"
+            android:textColor="#666"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+</FrameLayout>

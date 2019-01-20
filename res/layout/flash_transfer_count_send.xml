@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="13dp"
+    android:background="#53A1FF" >
+
+    <TextView
+        android:id="@+id/txtSendCount"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:text="xxxxxxxx" />
+    <TextView
+        android:id="@+id/txtRecourd"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="查看"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/ic_next_record" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+include ':ext-libs:pinshenglib'//, ':EasemobModule'
+include ':'
+include ':ext-libs:VitamioBundle4.2.2'
+include ':ext-libs:EasemobModule'
+include ':ext-libs:ViewPagerIndicatorLib'
+//project(':EasemobModule').projectDir = new File('ext-libs/EasemobModule')

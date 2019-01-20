@@ -1,0 +1,126 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+   
+    <!--用户 记录  -->
+    <style name="user_record">
+       <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mine_textview_height</item>
+        <item name="android:textSize">16sp</item>
+         <item name="android:paddingLeft">@dimen/mine_user_marginleft</item>
+         <item name="android:textColor">@color/gray_ss</item>
+         <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <!--sharing textview -->
+    <style name="sharing_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue_t</item>
+        <item name="android:textSize">@dimen/wxb_fontsize_14</item>
+        <item name="android:paddingLeft">3dp</item>
+    </style>
+    
+    <style name="myProgressBarStyleLarge">
+        <item name="android:indeterminateDrawable">@anim/loading_rotate</item>
+        <item name="android:minWidth">@dimen/progress_bar</item>
+        <item name="android:maxWidth">@dimen/progress_bar</item>
+        <item name="android:minHeight">@dimen/progress_bar</item>
+        <item name="android:maxHeight">@dimen/progress_bar</item>
+    </style>
+    
+    <style name="ip_edittext_style">
+       	<item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:digits">@string/ip_address</item>
+        <item name="android:ems">15</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:singleLine">true</item>     
+        <item name="android:textSize">@dimen/wxb_fontsize_16</item>
+    </style>
+    
+    <style name="custom_dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowCloseOnTouchOutside">false</item> 
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="loading_dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/loading_dialog_bg</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+    
+    <!-- bottom style -->
+    <style name="bottom_tv_btn_style">
+        <item name="android:layout_width">@dimen/video_bottom_item_width</item>
+        <item name="android:layout_height">@dimen/video_bottom_item_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/playlistitem_font_size</item>
+    </style>
+    
+    <style name="bottom_blue_tv_btn_style" parent="@style/bottom_tv_btn_style">
+        <item name="android:background">@drawable/selector_btn_blue</item>
+    </style>
+    <style name="bottom_orange_tv_btn_style" parent="@style/bottom_tv_btn_style">
+        <item name="android:background">@drawable/selector_btn_orange</item>
+    </style>
+    
+    <style name="bottom_ll_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/video_bottom_ll_height</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/video_bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textSize">@dimen/playlistitem_font_size</item>
+    </style>
+    
+     <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    
+         <style name="search_history_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/search_item_hight_dp</item>
+        <item name="android:layout_margin">@dimen/search_item_margin_dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/share_manager</item>
+        <item name="android:textSize">@dimen/search_item_text_size</item>
+        <item name="android:background">@drawable/search_history_text_bg</item>
+    </style>
+
+    <style name="search_hotword_text_style" parent="search_history_text_style">
+        <item name="android:textColor">@color/set_sharenet_color</item>
+    </style>
+
+    <style name="search_title_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/share_manager</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

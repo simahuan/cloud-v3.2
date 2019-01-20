@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wefi.pingshengdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+    <!-- permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" >
+    </supports-screens>
+
+    <application
+        android:name="com.zsw.pingshengdemo.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        <uses-library android:name="android.test.runner" />
+       
+       <activity
+            android:name="com.zsw.pingshengdemo.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+ 		<!-- 添加到主项目中    start -->      
+        <activity
+            android:name="com.wefi.zhuiju.activity.initialize.WelcomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.wefi.zhuiju.activity.initialize.GuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.initialize.GuestApproveActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.wefi.zhuiju.activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:icon="@drawable/logo1"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.wefi.zhuiju.smartconfig.MulticastDemoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.wefi.zhuiju.activity.MoreActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.wefi.zhuiju.activity.initialize.WifiListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.initialize.DeviceInitActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        
+        <activity
+            android:name="com.wefi.zhuiju.activity.initialize.MainInitActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.wefi.zhuiju.activity.initialize.LoginInitActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wefi.zhuiju.activity.initialize.WifiSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.apps.BaiDuAppSerchActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- vitamio应用 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.vitamio.PlayerActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.player.Player1Activity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        
+        <activity
+            android:name="com.wefi.zhuiju.activity.player2.Player2Activity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        
+        <service
+            android:name="com.wefi.zhuiju.activity.player2.PlayerService"/>
+
+        <!-- Don't forgot InitActivity -->
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 追剧的展示页 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.online.PlaysClassifyActivity"
+            android:label="Light"
+            android:screenOrientation="portrait"
+            android:theme="@style/VpiTheme" />
+
+        <!-- 追剧二级菜单->详细页 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.playinfos.PlayInfosActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/VpiTheme" />
+        
+        <activity
+            android:name="com.wefi.zhuiju.activity.discovery.whetherPush"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.searchnew.SearchActivity_new"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 下载管理 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.download.DownloadManagerActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 下载管理 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.download.DownloadActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 追剧神器配置 -->
+        <!-- 更多功能 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.MoreActivity"
+            android:screenOrientation="portrait" />
+        <!-- user -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.UserActivity"
+            android:screenOrientation="portrait" />
+        <!-- 共享 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.share2.Share2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.share2.ShareSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.share2.BlackListActivity"
+            android:screenOrientation="portrait" />
+        
+        <!-- 我的wifi -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.wifi.WifiConfigActivityNew"
+            android:screenOrientation="portrait" />
+        <!-- 盒子设置 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.SettingActivityNew"
+            android:screenOrientation="portrait" />
+        <!-- 盒子设置 about -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.setting.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.global.webview.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <!-- 存储 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.StorageActivityNew"
+            android:screenOrientation="portrait" />
+        <!-- 反馈 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.setting.FeedBackActivity"
+            android:screenOrientation="portrait" />
+        <!-- 4G -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.FourthGNetworkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.ShutdownActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.lab.LabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.problems.ProblemsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.problems.ProblemDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 外网 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.internet.InternetStateActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.detection.InternetDetectionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.internet.RelayConfigActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.internet.LineConfigActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 固件升级 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.upgrade.FirmwareUpgradeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.mine.upgrade.UpgradeProgressActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/custom_dialog" />
+
+        <!-- 测试下载Activity -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.apps.APKDownLoadListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.global.InterceptActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="com.wefi.zhuiju.activity.global.HostLoginActivity"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        
+        <!-- dlan模块 -->
+        <activity
+            android:name="com.wefi.zhuiju.dlna.BrowserActivity"
+            android:label="dlna"
+            android:logo="@drawable/mine_lab"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="com.wefi.zhuiju.service.httpServer.WebService" />
+        <service android:name="com.wefi.zhuiju.service.DownloadService" >
+            <intent-filter>
+                <action android:name="download.service.action" />
+            </intent-filter>
+        </service>
+        <service android:name="com.wefi.zhuiju.service.WifiP2PService" />
+        <service android:name="org.fourthline.cling.android.AndroidUpnpServiceImpl"/>
+        <service android:name="com.wefi.zhuiju.dlna.BrowserUpnpService"/>
+
+        <receiver android:name="com.wefi.zhuiju.broadcast.StartServiceBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_ON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wefi.zhuiju.broadcast.AppInstallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        
+<!--         <receiver android:name="com.wefi.zhuiju.broadcast.PhoneReceiver">
+        	<intent-filter>
+        		<action android:name="android.intent.action.PHONE_STATE"/>
+				<action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+        	</intent-filter>
+        </receiver> -->
+        
+        <!-- 友盟统计信息 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54dc9698fd98c5f28b000b55" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="pinsheng" />
+        
+        <!-- 友盟反馈 -->
+        <activity android:name="com.umeng.fb.ConversationActivity"/>
+        
+        <!-- 友盟更新 -->
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- 友盟更新 -->
+        <!-- 添加到主项目中    end -->   
+       
+
+    </application>
+
+    <!-- junit -->
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.wefi.zhuiju" />
+
+</manifest>

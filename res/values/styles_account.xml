@@ -1,0 +1,72 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AccountItemRowLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/account_item_row_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TextView.AccountItemLeft" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/account_item_txt_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+     <style name="AccountItemRowRightLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3.0</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+     <style name="EditText.Account.Normal" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/account_item_txt_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+    
+    <style name="EditText.Account.RowItemRight" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">3.0</item>
+        <item name="android:textSize">@dimen/account_item_txt_size</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="EditText.Account.Password" parent="EditText.Account.RowItemRight">
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="EditText.Account.Phone" parent="EditText.Account.RowItemRight">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">11</item>
+    </style>
+
+    <style name="AccountButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/account_item_txt_btn_size</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/account_btn_bg_enable</item>
+    </style>
+    <style name="AppLineFillWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#CCCCCC</item>
+    </style>
+
+</resources>

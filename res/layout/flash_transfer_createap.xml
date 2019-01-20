@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.pisen.router"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.pisen.router.ui.phone.flashtransfer.GradientProgressBar
+        android:id="@+id/pbar"
+        android:layout_width="267dp"
+        android:layout_height="267dp"
+        android:layout_centerInParent="true"
+        app:paintStrokeWidth="9dp"
+        app:spaceWidth="4dp" />
+
+    <TextView
+        android:id="@+id/txtTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="xxxx"
+        android:textColor="#8698f6"
+        android:textSize="15sp" />
+
+    <include
+        android:id="@+id/createApSucceedLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        layout="@layout/flash_transfer_createap_succeed" />
+
+    <include
+        android:id="@+id/createApNoBodyLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        layout="@layout/flash_transfer_createap_nobody" />
+    
+    <include
+        android:id="@+id/createApConnectingLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        layout="@layout/flash_transfer_createap_connecting" />
+
+</RelativeLayout>

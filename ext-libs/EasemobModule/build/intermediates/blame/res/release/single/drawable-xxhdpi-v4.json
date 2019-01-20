@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\retrun.png",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\drawable-xxhdpi\\retrun.png"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\chat_image_normal.png",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\drawable-xxhdpi\\chat_image_normal.png"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\chatting_biaoqing_btn_normal.png",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\drawable-xxhdpi\\chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\chatto_bg.9.png",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\drawable-xxhdpi\\chatto_bg.9.png"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\chatfrom_bg.9.png",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\drawable-xxhdpi\\chatfrom_bg.9.png"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\type_select_btn_nor.png",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\drawable-xxhdpi\\type_select_btn_nor.png"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\app_panel_video_icon.9.png",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\drawable-xxhdpi\\app_panel_video_icon.9.png"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\chat_takepic_normal.png",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\EasemobModule\\res\\drawable-xxhdpi\\chat_takepic_normal.png"
+    }
+]

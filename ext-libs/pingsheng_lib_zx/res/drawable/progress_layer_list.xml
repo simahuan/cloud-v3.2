@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 1背景层 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="0.5dp" />
+
+            <gradient
+                android:angle="270"
+                android:endColor="#E3DCD7"
+                android:startColor="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- 2缓存层 -->
+    <item android:id="@android:id/secondaryProgress">
+        <shape>
+            <corners android:radius="0.5dp" />
+
+            <gradient
+                android:angle="270"
+                android:endColor="#E3DCD7"
+                android:startColor="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- 3进度层 -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="0.5dip" />
+
+                <gradient
+                    android:angle="270"
+                    android:centerColor="@color/dominant_color"
+                    android:endColor="@color/dominant_color"
+                    android:startColor="@color/white" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

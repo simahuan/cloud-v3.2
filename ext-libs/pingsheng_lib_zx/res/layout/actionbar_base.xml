@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@drawable/head_top"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/action_back_title_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/actionbar_left_margin"
+        android:background="@drawable/selector_item_click_bg"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/action_back_iv"
+            android:layout_width="10dp"
+            android:layout_height="12dp"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/actionbar_back_n"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/action_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这是标题"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/actionbar_fornt_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/action_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/actionbar_right_margin"
+        android:background="@drawable/selector_item_click_bg"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/actionbar_fornt_size" />
+
+    <CheckBox
+        android:id="@+id/action_choose_all_cb"
+        android:layout_width="@dimen/actionbar_height"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_alignParentRight="true" >
+    </CheckBox>
+
+    <LinearLayout
+        android:id="@+id/action_btn1_ll"
+        android:layout_width="@dimen/actionbar_height"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/action_text_tv"
+        android:background="@drawable/selector_item_click_bg"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/action_btn1_iv"
+            android:layout_width="@dimen/actionbar_icon_height"
+            android:layout_height="@dimen/actionbar_icon_height"
+            android:src="@drawable/add_app_n"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action_btn2_ll"
+        android:layout_width="@dimen/actionbar_height"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/action_btn1_ll"
+        android:background="@drawable/selector_item_click_bg"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/action_btn2_iv"
+            android:layout_width="@dimen/actionbar_icon_height"
+            android:layout_height="@dimen/actionbar_icon_height"
+            android:src="@drawable/add_app_n"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>

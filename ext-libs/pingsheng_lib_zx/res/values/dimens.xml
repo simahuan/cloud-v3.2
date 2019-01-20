@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+     <dimen name="default_front_size">15sp</dimen>
+    <dimen name="head_titlename_fornt_size">20sp</dimen>
+    <dimen name="app_titlename_fornt_size">18sp</dimen>
+    <dimen name="app_other">12sp</dimen>
+    <dimen name="online_textsize">5dp</dimen>
+    <dimen name="play_font_size">18sp</dimen>
+    <dimen name="playlistitem_font_size">16sp</dimen>
+    <dimen name="play_update_font">15sp</dimen>
+    <dimen name="circle_play_font">10sp</dimen>
+    <dimen name="play_padding_size">2dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_bottom">15dp</dimen>
+    <dimen name="margin_playtextitem">15dp</dimen>
+    <dimen name="margin_oneside">5dp</dimen>
+    <dimen name="margin_doubleside">5dp</dimen>
+    <dimen name="margin_playlisttop">2dp</dimen>
+    <dimen name="margin_text_right">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">150dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="list_marginbottom">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    
+    <!-- wxb -->
+    <dimen name="wxb_fontsize_14">14sp</dimen>
+    <dimen name="wxb_fontsize_16">16sp</dimen>
+    <dimen name="wxb_fontsize_18">18sp</dimen>
+    <dimen name="wxb_fontsize_24">24sp</dimen>
+    <dimen name="wxb_fontsize_17">17sp</dimen>
+    <dimen name="wxb_fontsize_15">15sp</dimen>
+    <dimen name="wxb_fontsize_20">20sp</dimen>
+    <dimen name="progress_bar">38dp</dimen>
+    
+    <dimen name="notify_height">42dp</dimen>
+    <dimen name="notify_margin">10dp</dimen>
+    <dimen name="notify_btn_width">70dp</dimen>
+    <dimen name="notify_btn_height">30dp</dimen>
+    <dimen name="notify_lin_height">91dp</dimen>
+    <dimen name="notify_set_wxb_drawable">29dp</dimen>
+    <!-- 关于 -->
+   
+    <dimen name="mine_scan">212dp</dimen>
+    <dimen name="mine_title_height">67dp</dimen>
+    <dimen name="mine_title_back_width">40dp</dimen>
+    <dimen name="mine_title_imageview_right">30dp</dimen>
+    <dimen name="mine_imageview_status">30dp</dimen>
+    <!-- 用户  -->
+    <dimen name="mine_user_head_portrait">70dp</dimen>
+    <dimen name="mine_user_head_height">142dp</dimen>
+    <dimen name="mine_user_marginleft">5dp</dimen>
+    <dimen name="mine_user_margintop">40dp</dimen>
+    
+    <dimen name="mine_edittext_top">27dp</dimen>
+    <dimen name="mine_wifi_accounts_width">156dp</dimen>
+    <!-- 外网设置  -->
+    <dimen name="mine_status_top">40dp</dimen>
+    <dimen name="mine_status_left">10dp</dimen>
+    <dimen name="mine_padding_left">9dp</dimen>
+    <dimen name="mine_wifi_info_drawable_height">100dp</dimen>
+    <dimen name="mine_set_ll_height">77dp</dimen>
+    <dimen name="mine_ip_textview_width">87dp</dimen>
+    <dimen name="internet_state_item_height">48dp</dimen>
+    <dimen name="internet_state_item_info_height">190dp</dimen>
+    <dimen name="internet_state_item_info_height2">220dp</dimen>
+    <dimen name="internet_state_image_size">70dp</dimen>
+    <dimen name="internet_state_item_margin">5dp</dimen>
+    <dimen name="internet_state_text_size">14dp</dimen>
+    <dimen name="internet_detection_btn_height">30dp</dimen>
+    <dimen name="internet_detection_btn_width">130dp</dimen>
+    
+     <!-- 设置 -->
+     <dimen name="mine_set_use_textview">65dp</dimen>
+     <dimen name="mine_set_use_marginleft">20dp</dimen>
+     <dimen name="mine_set_use_margintop">21dp</dimen>
+     <dimen name="mine_set_use_imageview_width">97dp</dimen>
+     <dimen name="mine_set_use_imageview_height">24dp</dimen>
+     <!-- 存储 -->
+     <dimen name="mine_storage_left">15dp</dimen>
+     <dimen name="mine_storage_top">25dp</dimen>
+     <dimen name="mine_storage_top_2">20dp</dimen>
+     <dimen name="mine_storage_text_top">15dp</dimen>
+     <dimen name="mine_storage_round_width">109dp</dimen>
+     <dimen name="mine_storage_round_background_width">118dp</dimen>
+     <dimen name="dialog_margin_lefe">10dp</dimen>
+     <!-- 共享 -->
+     <dimen name="mine_setsharing_top">35dp</dimen>
+     <dimen name="mine_sharinginfo_drawable">28dp</dimen>
+     <dimen name="mine_sharinginfo_bottom">35dp</dimen>
+     <!-- wifi网络 -->
+     <dimen name="mine_drawable">76dp</dimen>
+     <dimen name="mine_margintop">25dp</dimen>
+     <dimen name="mine_textview_height">55dp</dimen>
+     <dimen name="mine_textview_confirm_height">45dp</dimen>
+     <dimen name="mine_textview_width">82dp</dimen>
+    
+    <dimen name="corner_radius">0dp</dimen>
+    <dimen name="layer_padding">0dp</dimen>
+    
+    <!-- 主界面item宽高 -->
+    <dimen name="play_item_height">125dp</dimen>
+    <dimen name="play_item_width">360dp</dimen>
+    
+    <!-- 本地视频-->
+    <dimen name="video_item_width">75dp</dimen>
+    <dimen name="video_checkbox_width">30dp</dimen>
+    <dimen name="video_item_margins">10dp</dimen>
+    
+    <!-- action bar -->
+    <dimen name="actionbar_height">67dp</dimen>
+    <dimen name="actionbar_icon_height">30dp</dimen>
+    <dimen name="actionbar_left_margin">10dp</dimen>
+    <dimen name="actionbar_right_margin">10dp</dimen>
+    <dimen name="actionbar_fornt_size">18sp</dimen>
+    
+    <!-- bottom -->
+    <dimen name="video_bottom_ll_height">45dp</dimen>
+    <dimen name="video_bottom_item_height">30dp</dimen>
+    <dimen name="video_bottom_item_width">120dp</dimen>
+    <dimen name="video_bottom_item_marginright">20dp</dimen>
+    
+    <!-- 网络检测 -->
+    <dimen name="detection_tip_image_width">220dp</dimen>
+    <dimen name="detection_state_text_margintop">140dp</dimen>
+    <dimen name="detection_state_text_textsize">16sp</dimen>
+    <dimen name="detection_opt_text_width">130dp</dimen>
+    <dimen name="detection_opt_text_height">30dp</dimen>
+    <dimen name="detection_opt_text_textsize">18sp</dimen>
+    <dimen name="detection_infos_text_textsize">12sp</dimen>
+    <dimen name="detection_result_text_textsize">16sp</dimen>
+    <dimen name="detection_progress_text_textsize">36sp</dimen>
+    <dimen name="detection_repairing_text_textsize">28sp</dimen>
+    <dimen name="detection_progress_circle_width">36sp</dimen>
+    
+</resources>

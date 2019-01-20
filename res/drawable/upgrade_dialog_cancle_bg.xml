@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" />
+
+    <stroke
+        android:width="1px"
+        android:color="#CCCCCC" />
+
+    <!-- 设置圆角矩形 -->
+    <corners android:radius="6dp" />
+
+    <padding
+        android:bottom="7dp"
+        android:left="7dp"
+        android:right="7dp"
+        android:top="7dp" />
+    
+<!--     <item
+        android:top="1px" 
+        android:left="1px"
+        android:right="1px"
+        android:bottom="1px"
+        >
+        <shape>
+            <corners android:radius="10px"/>
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item> -->
+ 
+</layer-list>

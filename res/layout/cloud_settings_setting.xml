@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9F9F9"
+        android:orientation="vertical"
+      >
+    
+    <TableLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        >
+      	<TableRow
+             android:id="@+id/ltrow_setting_newmsg_recv"
+             style="@style/item_bg_single_layout_top"
+             android:layout_marginTop="10dp"
+             android:focusable="false">
+
+             <TextView
+                 android:id="@+id/tv_setting_newmsg_recv"
+                 style="@style/TextView.SettingsItemTitle"
+                 android:layout_width="wrap_content"
+                 android:layout_height="fill_parent"
+                 android:text="@string/settings_setting_newmsg_recv" />
+             
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <ImageView
+                    android:contentDescription="@string/app_name"
+                    android:id="@+id/tbtn_msg_recv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cloud_setting_switch_on"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip" />
+            </RelativeLayout>
+         </TableRow>
+      	<include layout="@layout/cloud_settings_item_space_line"/>
+      	<TableRow
+             android:id="@+id/ltrow_setting_clear_cache"
+             style="@style/item_bg_single_layout_bottom"
+             android:focusable="false"
+             >
+             <TextView
+                 android:id="@+id/tv_setting_clear_cachek"
+                 style="@style/TextView.SettingsItemTitle"
+                 android:layout_width="wrap_content"
+                 android:layout_height="fill_parent"
+                 android:text="@string/settings_setting_clear_cache" />
+             <TextView
+                 android:id="@+id/txt_cache"
+                 android:textSize="14sp"
+                 android:textColor="#333"
+                 android:gravity="center_vertical|right"
+                 android:paddingRight="12dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="fill_parent" 
+                 android:text="0.0M"
+                 />
+         </TableRow>
+    </TableLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F9F9F9"
+        android:visibility="gone"
+        />
+    
+    <Button
+        android:id="@+id/account_btn_logout"
+        style="@style/AccountButton"
+        android:background="@drawable/account_btn_bg_red"
+        android:layout_marginTop="26.67dp"
+        android:visibility="gone"
+        android:text="退出登录" />
+</LinearLayout>

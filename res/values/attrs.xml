@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- 菜单样式 -->
+    <declare-styleable name="SlidingMenu">
+        <attr name="meunWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- 圆形进度条 -->
+    <declare-styleable name="RoundProgressBar">
+        <attr name="rpbarDisabledColor" format="color" />
+        <attr name="rpbarRoundColor" format="color" />
+        <attr name="rpbarRundProgressColor" format="color" />
+        <attr name="roundProgressDisabledColor" format="color" />
+        <attr name="rpbarRoundWidth" format="dimension"></attr>
+        <attr name="rpbarMax" format="integer"></attr>
+    </declare-styleable>
+
+    <!-- 时间轴gridview控件 -->
+    <declare-styleable name="TimeAxisStickyGridHeadersGridView">
+        <attr name="timeAxisColor" format="color" />
+        <attr name="timeAxisWidth" format="dimension" />
+        <attr name="timeAxisPaddingLeft" format="dimension"></attr>
+    </declare-styleable>
+
+    <!-- 创建热点圆形进度 -->
+    <declare-styleable name="GradientProgressBar">
+        <attr name="startColor" format="color" />
+        <attr name="centerColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="drawTextColor" format="color" />
+        <attr name="drawTextSize" format="dimension" />
+        <attr name="paintStrokeWidth" format="dimension" />
+        <attr name="spaceWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- tab切换控件属性 -->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <!-- Default appearance of text: color, typeface, size, and style. -->
+    <attr name="textAppearance" format="reference" />
+
+    <!-- 设备资源空闲使用情况 -->
+    <declare-styleable name="DevRoundProgressBar">
+        <attr name="devRoundColor" format="color|reference" />
+        <attr name="devRoundProgressColor" format="color|reference" />
+        <attr name="devRoundWidth" format="dimension"></attr>
+        <attr name="devTextColor" format="color|reference" />
+        <attr name="devTextSize" format="dimension" />
+        <attr name="devMax" format="integer"></attr>
+        <attr name="devTextIsDisplayable" format="boolean"></attr>
+        <attr name="devStyle">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    
+<!--     <declare-styleable name="mlistview">
+        <attr name="mlistview_freshing" format="string" />
+        <attr name="mlistview_prefresh" format="string" />
+        <attr name="mlistview_freshed" format="string" />
+        <attr name="mlistview_lasttime" format="string" />
+        <attr name="mlistview_preloadmore" format="string" />
+        <attr name="mlistview_loadingmore" format="string" />
+        <attr name="mlistview_isfreshable" format="boolean" />
+        <attr name="mlistview_isloadmoreable" format="boolean" />
+    </declare-styleable> 
+    <declare-styleable name="mimageview">
+        <attr name="roundcornner_degree" format="integer" />
+        <attr name="is_pressshade" format="boolean" />
+    </declare-styleable>
+-->
+
+	<declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="babybull">#00a0e9</color>  
+  <color name="darkorange">#FF9900</color>
+  <color name="colournull">#00000000</color>
+  
+  <color name="discovery_lightblue">#0693ff</color>
+  <color name="discovery_black">#121212</color>
+  <color name="blue">#0099CC</color>
+  <color name="blue_t">#00a1ea</color>
+  <color name="orange_st">#f39900</color>
+  <color name="gray">#aeaeae</color>
+  <color name="gray_ss">#4e4e4e</color>
+  <color name="sgray">#6e6e6e</color>
+  
+  <color name="orange">#FBA92D</color>
+  <color name="gold">#ffd700</color>
+  <color name="black">#000000</color>
+  <color name="white">#ffffff</color>
+  <color name="red">#FF0000</color>
+  
+  <color name="dominant_color">#00a0e9</color>
+  <color name="btn_pressed_color">#0080BA</color>
+  <color name="divide_color">#AEAEAE</color>
+  <color name="divide_color_black">#4E4E4E</color>
+  <color name="divide_color_black2">#4F4F4F</color>
+  <color name="dominant_background">#E5E5E5</color>
+  <color name="dominant_background2">#E3E3E3</color>
+  <color name="dominant_background3">#e4e3e4</color>
+  <color name="refresh_btn_n">#4F4F4F</color>
+  <color name="direct_watch_video_n">#00A0E9</color>
+  <color name="direct_watch_video_p">#0080BA</color>
+  <color name="buy_werouter_n">#F39800</color>
+  <color name="buy_werouter_p">#C27900</color>
+  <color name="btn_downloading">#F39900</color>
+  <color name="btn_install_n">#00A0E9</color>
+  <color name="btn_install_p">#0080BA</color>
+  <color name="btn_upgrade_n">#E60012</color>
+  <color name="btn_upgrade_p">#B8000E</color>
+  <color name="btn_open_n">#E3E3E3</color>
+  <color name="btn_open_p">#B6B6B6</color>
+  <color name="tab_widget_bg">#E6FFFFFF</color>
+  <color name="text_press_color">#000000</color>
+  <color name="text_unclick_color">#BDBDBD</color>
+  <color name="transparency">#7fff0000</color>
+  <color name="title_bg_color">#ECECEC</color>
+  <color name="play_empty_add_bg">#6E6E6E</color>
+  <color name="play_bottom_controll_bg">#EDEDED</color>
+  
+  <color name="mine_item_divide">#D9D9DC</color>
+  <color name="mine_item_bg_n">#F4F4F6</color>
+  
+
+  <!-- ProcessButton -->
+   <color name="blue_pressed">#ff0099cc</color>
+   <color name="blue_normal">#ff33b5e5</color>
+   <color name="green_complete">#ff99cc00</color>
+   <color name="purple_progress">#ffaa66cc</color>
+   <color name="red_error">#ffff4444</color>
+   <color name="holo_blue_bright">#ff00ddff</color>
+   <color name="holo_green_light">#ff99cc00</color>
+   <color name="holo_orange_light">#ffffbb33</color>
+   <color name="holo_red_light">#ffff4444</color>
+   
+   <!-- check upgrade co -->
+   <color name="upgrade_text_color">#F59701</color>
+   <color name="upgrade_btn_bg">#F39801</color>
+   
+   <!-- download manager  -->
+   <color name="download_state_waiting">#a0a0a0</color>
+   <color name="download_state_paused">#F79709</color>
+   <color name="download_state_complete">#55BBFF</color>
+   <color name="download_state_active">#00a1e9</color>
+   <color name="download_state_error">#FF0033</color>
+   
+    <drawable name="actionbar_back">#ef202020</drawable>
+    <drawable name="play_font_color">#FFFFFF</drawable>
+    <drawable name="play_btn_color">#44B4FF</drawable>
+    <drawable name="application_background">#e4e3e4</drawable>
+    <color name="application_background">#e4e3e4</color>
+    <drawable name="application_bar_background">#ececec</drawable>
+    <drawable name="app_title_background">#E1E1E1</drawable> <!-- 浅灰色 -->
+    <drawable name="application_textcolor">#666666</drawable>  <!-- 灰色 --> 
+    <drawable name="upgrade_textcolor">#F79709</drawable><!-- 橙色 -->   
+    <drawable name="bottom_textcolor">#55BBFF</drawable><!--#55BBFF 蓝色 -->   
+    <drawable name="actionbar_textcolor">#6e6e6e</drawable><!-- 灰色 -->  
+    
+    
+    <!-- action bar -->
+    <color name="actionbar_text_color">#ffffff</color>
+    <color name="actionbar_bg">#ECECEC</color>
+    
+    <!-- local video state -->
+    <color name="localvideo_bg_over">#F2F2F2</color><!-- 看完--> 
+    <color name="localvideo_bg_no_over">#FFFFFF</color><!--没看完 --> 
+    <color name="localvideo_text_over">#818181</color><!-- 看完--> 
+    <color name="localvideo_text_no_over">#4A4A4A</color><!--看了部分--> 
+    <color name="localvideo_text_lasttime">#2EA7E2</color><!--上次观看的 -->
+    
+    <color name="follow_subscribe_bg">#50B7BBC0</color>
+    
+    
+    <color name="loading_dialog_bg">#000000</color>
+    <color name="item_click_bg">#19000000</color>
+    <color name="item_click_bg2">#E5E5E5</color>
+    <color name="lv_item_click_bg">#0A000000</color>
+
+    <!-- Share2 color -->
+    <color name="share_actionbar_color">#4A4A4A</color>
+    <color name="set_sharenet_color">#2EA7E2</color>
+    <color name="share_manager">#818181</color>
+    <color name="blackname_number">#F4F4F6</color>
+    <color name="pending_access">#F7A800</color>
+    
+    <!-- customdialog -->
+    <color name="customdialog_title">#838383</color>
+    <color name="custom_dialog_background">#FFFFFF</color>
+    <color name="custom_dialog_press">#ECECEC</color>
+    <color name="custom_dialog_view">#D0D0D4</color>
+    <color name="search_text_color">#A9A9A9</color>
+    
+    <!-- 存储 -->
+    <color name="storage_progress_color">#2EA7E2</color>
+    
+    <!-- 互联网 -->
+    <color name="internet_state_off">#AFB0B0</color>
+    <color name="internet_state_no_connect">#F39A06</color>
+    <color name="internet_state_has_connect">#00A0E9</color>
+    
+    <!-- online -->
+    <color name="follow_no_n">#E60012</color>
+    <color name="follow_no_p">#B8000E</color>
+    <color name="follow_yes_n">#9B9B9B</color>
+    <color name="follow_yes_p">#7C7C7C</color>
+    <color name="play_name_color">#4A4A4A</color>
+    
+    <!-- 网络检测 -->
+    <color name="detection_state_normal">#2EA7E2</color>
+    <color name="detection_state_exception">#F39800</color>
+    <color name="detection_state_noconnect">#A9A9A9</color>
+    <color name="detection_infos">#4A4A4A</color>
+    
+    <!-- 常见问题 -->
+    <color name="problems_title">#4A4A4A</color>
+    <color name="problems_bg_p">#F4F4F6</color>
+    
+    <!-- 追剧-->
+    <color name="play_had_follow">#FFFFFF</color>
+    <color name="play_not_follow">#FFFFFF</color>
+    
+</resources>

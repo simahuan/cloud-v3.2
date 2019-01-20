@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relLayout_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_logo_page"
+     >
+
+    <ImageView 
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgPisenLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome_pisen_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="178dp"
+        />
+    
+     <TextView 
+        android:id="@+id/txtPublishVer"
+        android:layout_below="@id/imgPisenLogo"
+        style="@style/TextView.Version"
+        />
+     
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="23dp"
+        android:layout_below="@id/txtPublishVer"
+        android:id="@+id/imgYidong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome_yidong"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

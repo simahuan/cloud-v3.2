@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   <FrameLayout 
+       android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+        
+  	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/empty_drama">
+        
+        <ImageView 
+           android:layout_width="100dip"
+           android:layout_height="100dip" 
+           android:background="@drawable/empty_result"/>
+        
+        <TextView 
+            android:layout_marginTop="40dip"
+            android:text="相关剧集没有找到"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dip"
+            android:textColor="#818181"/>
+    </LinearLayout>
+
+    
+    <com.wefi.zhuiju.customview.refreshlistview.PullToRefreshListView
+        android:id="@+id/online_ptrlv"
+        android:layout_width="match_parent"
+       	android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/white"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:scrollbars="vertical"
+        android:scrollingCache="false" >
+    </com.wefi.zhuiju.customview.refreshlistview.PullToRefreshListView>
+    
+    </FrameLayout>
+</LinearLayout>

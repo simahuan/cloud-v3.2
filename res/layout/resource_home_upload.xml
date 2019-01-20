@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuCategory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc000000"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <include
+        layout="@layout/actionbar_header"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/upload_close" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:columnCount="2" >
+
+        <Button
+            android:id="@+id/btnAll"
+            android:background="@null"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/upload_all_icon"
+            android:text="全部"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_marginLeft="66dp"
+            android:background="@null"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/upload_photo_icon"
+            android:text="即拍即传"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnImage"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/upload_pic_icon"
+            android:text="图片"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnVideo"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/upload_video_icon"
+            android:text="视频"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/upload_music_icon"
+            android:text="音乐"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnDocument"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/upload_file_icon"
+            android:text="文档"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+    </GridLayout>
+
+</RelativeLayout>

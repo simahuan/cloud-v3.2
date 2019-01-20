@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.6dip"
+        android:background="@drawable/settings_line_shape" />
+
+    <LinearLayout
+        android:id="@+id/llBackGround"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/settings_top_bg_height"
+        android:layout_below="@id/line"
+        android:background="#0073FF"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imgHeadBg"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/head_bg" />
+
+            <ImageView
+                android:id="@+id/imgChangeHead"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/head_1" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/edtNickName"
+            style="@style/EditText.Normal.Cursor" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomFunctionLayout"
+        android:layout_below="@id/llBackGround">
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerInParent="true"
+            android:cacheColorHint="#00000000"
+            android:horizontalSpacing="4dp"
+            android:listSelector="#00000000"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:verticalSpacing="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomFunctionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="42dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp" >
+
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自拍头像"
+            android:background="@drawable/btn_head_custom" />
+
+        <Button
+            android:id="@+id/btnGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="本地照片" 
+            android:background="@drawable/btn_head_custom"/>
+    </RelativeLayout>
+
+</RelativeLayout>

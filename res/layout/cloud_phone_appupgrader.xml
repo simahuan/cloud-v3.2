@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_update"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="@string/appupgrade_text_upgrade"
+            android:textColor="@color/device_black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/appupgrader_llin_toupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/appupgrade_text_newapp"
+                android:textColor="@color/singlechoice_item_gray"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/appupgrader_txt_version1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/transferrecord_item_disable"
+                android:textSize="8dp" />
+
+            <Button
+                android:id="@+id/appupgrader_btn_update"
+                android:layout_width="219dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/btn_upgrade_download_bkg"
+                android:text="@string/appupgrade_text_upgradebutton"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/appupgrader_llin_updating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/appupgrade_text_downloading"
+                android:textColor="@color/singlechoice_item_gray"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/appupgrader_txt_version2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/transferrecord_item_disable"
+                android:textSize="8dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <ProgressBar
+                    android:id="@+id/appupgrader_pbar_updating"
+                    style="@style/AppProgressBar.Horizontal"
+                    android:layout_width="219dp"
+                    android:layout_height="36dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="32dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/app_progress_horizontal_orange" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/appupgrade_text_downloading_pgb"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/appupgrader_llin_updatefail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/appupgrade_text_downloadfail"
+                android:textColor="#F47D0E"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="8dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/appupgrader_btn_retry"
+                android:layout_width="219dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/btn_upgrade_retry_bkg"
+                android:text="@string/appupgrade_text_retrybutton"
+                android:textColor="@color/singlechoice_item_gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

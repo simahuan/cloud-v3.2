@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/equipment_storage_space_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:drawableLeft="@drawable/menu_ic_back"
+            android:drawablePadding="5dp"
+            android:onClick="back"
+            android:paddingLeft="10dp"
+            android:text="返回"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="固件升级"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_22" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/line_white_bg" />
+
+    <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" > -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/amitionLayout"
+                    android:layout_width="214dp"
+                    android:layout_height="214dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" >
+
+                    <ImageView
+                        android:id="@+id/ivCircle"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="7dp"
+                        android:src="@drawable/equipment_upgrade_circle" />
+
+                    <ImageView
+                        android:id="@+id/ivPoint"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/equipment_upgrade_point" />
+                    
+                    <ImageView
+                        android:id="@+id/ivlogo"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="7dp"
+                        android:visibility="visible"
+                        android:src="@drawable/equipment_upgrade_logo" />
+                    
+                    <TextView
+                        android:id="@+id/txtProgress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="67dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:visibility="invisible"
+                        android:text="100"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_60"/>
+                    <TextView
+                        android:id="@+id/txtProgressPa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@+id/txtProgress"
+                        android:visibility="invisible"
+                        android:gravity="bottom"
+                        android:padding="2dp"
+                        android:text="%"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_20"/>
+                    
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvDeviceMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/amitionLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="300M云路由(mini型)"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_17" />
+
+                <TextView
+                    android:id="@+id/tvDeviceVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDeviceMode"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_12" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvTip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/dev_upgrade"
+                    android:textColor="@color/device_lightblue_txt"
+                    android:textSize="@dimen/txt_17" />
+
+                <TextView
+                    android:id="@+id/tvDeviceNewVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:text=""
+                    android:textColor="@color/device_lightblue_txt"
+                    android:textSize="@dimen/txt_12" />
+
+                <Button
+                    android:id="@+id/btnDeviceUpgrade"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/equipment_confrim"
+                    android:text="@string/dev_upgrade_checkup"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_18" />
+            </LinearLayout>
+        </LinearLayout>
+    <!-- </ScrollView> -->
+
+</LinearLayout>

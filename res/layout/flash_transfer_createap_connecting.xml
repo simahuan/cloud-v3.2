@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接中..."
+        android:textColor="#8698f6"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imgHead"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="13dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_user_empty" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="XXXXX"
+        android:textColor="#B5B5B5"
+        android:textSize="15sp" />
+
+</LinearLayout>

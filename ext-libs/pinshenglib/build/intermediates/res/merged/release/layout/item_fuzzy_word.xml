@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/fuzzy_word_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="电影"
+            android:textColor="@color/share_manager"
+            android:textSize="18sp"/>
+
+        <RelativeLayout
+            android:id="@+id/fuzzy_go_rl"
+            android:layout_width="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/fuzzy_go_iv"
+                android:layout_width="10dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/search_go"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

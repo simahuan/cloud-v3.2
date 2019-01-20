@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video_synopsis.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_video_synopsis.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_downloads.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\activity_video_downloads.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_history_word_tv.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_history_word_tv.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_playinfos.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\activity_video_playinfos.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_base_pisen.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\actionbar_base_pisen.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video_follow.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_video_follow.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_plays_classify.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\activity_video_plays_classify.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_fuzzy_word.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_fuzzy_word.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_online_play.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_online_play.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_hot_word_tv.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_hot_word_tv.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_local_video_foot.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_local_video_foot.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\activity_searchnew.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\activity_searchnew.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\listview_foot.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\listview_foot.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_download_video.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_download_video.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\list_footer.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\list_footer.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_subscribe_plays.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_subscribe_plays.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\v2_mediacontroller.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\v2_mediacontroller.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\loading_dialog.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\loading_dialog.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_search_new.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\actionbar_search_new.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_words.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_search_words.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\mediacontroller.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\VitamioBundle4.2.2\\build\\intermediates\\bundles\\default\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_result_new.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_search_result_new.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_search_word.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_search_word.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search_hot_new.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_search_hot_new.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\v2_control_btns.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\v2_control_btns.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fuzzy_word.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_fuzzy_word.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_local_video.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_local_video.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header2.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\pull_to_refresh_header2.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\v2_activity_video.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\v2_activity_video.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_history_word.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_history_word.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\item_play_video.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\item_play_video.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_new.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\activity_search_new.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_local_videos.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_local_videos.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_base.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\actionbar_base.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video_online_page.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_video_online_page.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\v2_brightness_volumn.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\v2_brightness_volumn.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video_online_videos.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\fragment_video_online_videos.xml"
+    },
+    {
+        "merged": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\res\\merged\\debug\\layout\\action_fragment_head.xml",
+        "source": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\layout\\action_fragment_head.xml"
+    }
+]

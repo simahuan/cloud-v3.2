@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pisen.router"
+    android:versionCode="2015091702"
+    android:versionName="3.2" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="16" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+    
+    <!-- 激光推送 permission 开始 -->
+    <permission
+        android:name="com.pisen.router.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <!-- Required  一些系统要求的权限，如访问网络等-->
+    <uses-permission android:name="com.pisen.router.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>  
+    
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 激光推送 permission 结束 -->
+
+    <!-- shared sdk -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- vitamio所需权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <!-- 其他 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- { 追剧 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".CloudApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme1"
+        tools:replace="name,icon,label,theme">
+
+        <!-- ************************************ Activity 声明  ***************************************** -->
+        <!-- 引导欢迎页 -->
+        <activity
+            android:name="com.pisen.router.ui.phone.welcome.WelcomActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.pisen.router.ui.phone.welcome.GuideActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- 主体页面 -->
+        <activity
+            android:name="com.pisen.router.ui.HomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|fontScale"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.pisen.router.ui.base.FragmentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnspecified|adjustPan" />
+        
+        <!-- 账户 -->
+        <activity
+            android:name="com.pisen.router.ui.phone.account.RegisterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pisen.router.ui.phone.account.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pisen.router.ui.phone.account.AgreementContentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 闪电互传 -->
+        <activity
+            android:name="com.pisen.router.ui.phone.flashtransfer.ConnectManageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/translucent_no_animstyle" />
+        <activity
+            android:name="com.pisen.router.ui.phone.flashtransfer.FlashTransferRecordActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 设备管理 -->
+        <activity
+            android:name="com.pisen.router.ui.phone.device.WifiSettingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.pisen.router.ui.phone.device.NetworkSettingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.pisen.router.ui.phone.device.WiredConnSettingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.pisen.router.ui.phone.device.WirelessRelayActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.pisen.router.ui.phone.device.FirmwareUpgradeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.pisen.router.ui.phone.device.DeviceListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.pisen.router.ui.phone.device.RouterManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pisen.router.ui.phone.device.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.pisen.router.ui.phone.device.ForceUpgradeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 录音机 -->
+        <activity
+            android:name=".core.recorder.ui.SoundRecorderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".core.image.ImageViewerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 音乐播放器 -->
+        <activity
+            android:name="com.pisen.router.ui.phone.resource.musicplayer.MusicPlaybackActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 视频播放器 -->
+        <activity
+            android:name=".core.movie.VideoPlayer"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".ui.phone.videoplayer.VideoViewBuffer"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <!-- 头像裁切 -->
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pisen.router.ui.photocrop.ImageCropActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 照相机 -->
+        <activity
+            android:name=".core.camera.CameraActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- 消息中心 -->
+        <activity
+            android:name=".core.message.MessageCenterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- 打开文档 -->
+        <activity
+            android:name=".core.document.DownloadAndOpenDocActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 设备容量 -->
+        <activity
+            android:name="com.pisen.router.ui.phone.device.MeasureDevice"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- 文件管理 -开始 -->
+        <activity android:name="com.pisen.router.ui.phone.resource.transfer.TransferRecordActivity" />
+        <activity
+            android:name="com.pisen.router.ui.phone.resource.v2.FileChooserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.pisen.router.ui.phone.resource.v2.upload.RootUploadActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="com.pisen.router.core.filemanager.transfer.TransferProvider"
+            android:authorities="com.pisen.router" />
+        <!-- 文件管理-结束 -->
+        
+        <!-- shared sdk start -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="com.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        
+        <!-- 激光推送 activity 开始-->
+        <!-- Required SDK核心功能-->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden" 
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.pisen.router" />
+            </intent-filter>
+        </activity>
+        <!-- 激光推送 activity 结束 -->
+
+    
+        <!-- shared sdk end -->
+        <!-- ************************************ Service 声明  ***************************************** -->
+        <!-- 欢迎页后台服务 -->
+        <service android:name="com.pisen.router.ui.phone.welcome.DownLoadImageService" />
+        <!-- 录音机 -->
+        <service android:name=".core.recorder.RecorderService" />
+        <!-- 闪电互传 -->
+        <service android:name="com.pisen.router.core.flashtransfer.FlashTransferManager" />
+        <!-- 音乐播放服务 -->
+        <service android:name="com.pisen.router.core.music.MusicPlayService" />
+        <!-- 文件上传、下载 -->
+        <service android:name="com.pisen.router.core.filemanager.transfer.TransferServiceV2" />
+        <!-- DLNA相关 -->
+        <service android:name="com.charon.dmc.service.DLNAService" />
+        <!-- 闪电互传设备扫描服务 -->
+        <service android:name="com.pisen.router.core.flashtransfer.scan.DeviceScanService" />
+        <!-- 在线升级服务 -->
+        <service android:name="com.pisen.router.ui.phone.settings.upgrade.UpgradeAppService" />
+        <service android:name="com.pisen.router.core.filemanager.cancheinfo.WebdavCacheService" />
+        
+        <!-- 激光推送service 开始-->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+        
+          <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service 
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter >
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+                <category android:name="com.pisen.router"/>
+            </intent-filter>
+        </service>
+        <!-- 激光推送service 结束 -->
+        
+
+        <!-- *********************************** Broadcast 声明  ***************************************** -->
+        <!-- 激光推送broadcase Receiver 开始 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" 
+            >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+                <category android:name="com.pisen.router" />
+            </intent-filter>
+           
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+             
+            <!-- option -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+        <!-- 激光推送broadcase Receiver 结束 -->
+        
+        <!-- 用户自定义接收器 _处理极光消息-->
+        <receiver
+            android:name="com.pisen.router.core.message.MessageCenterMonitor"
+            android:enabled="true"
+            android:exported="false"
+             >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!--Required  用户注册SDK的intent-->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />  
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!--Required  用户接收SDK消息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!--Required  用户接收SDK通知栏信息的intent-->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!--Required  用户打开自定义通知栏的intent-->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!--Optional 用户接受Rich Push Javascript 回调函数的intent-->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /><!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.pisen.router" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- ***************************************Mete-data数据声明 ********************************* -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="7935795bd017a9359fb5ae8d" /> 
+        
+
+        <!-- 追剧 ************************************************************************************ -->
+        <!-- 添加到主项目中    start -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.player2.Player2Activity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            tools:replace="screenOrientation"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service android:name="com.wefi.zhuiju.activity.player2.PlayerService" />
+
+        <!-- Don't forgot InitActivity -->
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 追剧的展示页 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.online.PlaysClassifyActivity"
+            android:label="Light"
+            android:screenOrientation="portrait"
+            android:theme="@style/VpiTheme" />
+
+        <!-- 追剧二级菜单->详细页 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.playinfos.PlayInfosActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/VpiTheme" />
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.searchnew.SearchActivity_new"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- 下载管理 -->
+        <activity
+            android:name="com.wefi.zhuiju.activity.follow.download.DownloadActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 友盟统计信息 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54dc9698fd98c5f28b000b55" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="pinsheng" />
+
+        <!-- 追剧 }}  ************************************************************************************ -->
+
+        <!-- 软件升级 -->
+        <activity android:name="com.pisen.router.ui.phone.upgrade.AppUpgraderActivity" >
+        </activity>
+    </application>
+
+</manifest>

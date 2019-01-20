@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.pisen.router"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.pisen.router.common.view.TimeAxisStickyGridHeadersGridView
+        android:id="@+id/grd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:clipToPadding="false"
+        android:fadingEdge="none"
+        android:horizontalSpacing="4dp"
+        android:overScrollMode="never"
+        android:paddingLeft="35dp"
+        android:paddingRight="20dp"
+        android:scrollbarSize="4dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/flashtransfer_scrollbar_vertical_thumb"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp"
+        app:timeAxisColor="#ccc"
+        android:visibility="gone"
+        app:timeAxisPaddingLeft="20dp"
+        app:timeAxisWidth="2px" />
+
+    <TextView
+        android:id="@+id/txtTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="图片加载中..."
+        android:textColor="#999" />
+
+    <include
+        android:id="@+id/emptyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/content_empty" />
+
+</RelativeLayout>

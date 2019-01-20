@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/pathLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtdownloadpath"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:background="#f6f6f6"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:singleLine="true"
+            android:textSize="11sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_gray" />
+    </LinearLayout>
+
+    <com.sticky.listheaders.StickyListHeadersListView
+        android:id="@+id/lst"
+        style="@style/AppListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pathLayout"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:overScrollMode="never"
+        android:scrollbarSize="4dp"
+        android:scrollbarThumbVertical="@drawable/flashtransfer_scrollbar_vertical_thumb" />
+
+    <include
+        android:id="@+id/emptyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pathLayout"
+        layout="@layout/content_empty" />
+
+</RelativeLayout>

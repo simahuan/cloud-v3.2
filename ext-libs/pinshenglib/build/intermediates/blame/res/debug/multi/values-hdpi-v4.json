@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "D:\\git_test\\pisen_project_items\\151028_PisenCloud\\PisenCloud-v3.0\\ext-libs\\pinshenglib\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 0,
+                        "startOffset": 12,
+                        "endColumn": 43,
+                        "endOffset": 55
+                    }
+                }
+            }
+        ]
+    }
+]

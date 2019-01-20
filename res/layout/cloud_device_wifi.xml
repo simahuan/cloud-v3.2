@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/device_gray_bg"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="为您的网络命名"
+            android:textColor="@color/device_black"
+            android:textSize="@dimen/txt_18" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/line_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" 
+            android:paddingTop="25dp" 
+            android:paddingBottom="25dp"  >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="WIFI名称"
+                    android:textColor="@color/blacklight"
+                    android:textSize="@dimen/txt_18" />
+
+                <EditText
+                    android:id="@+id/etWifiName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/device_round_corner"
+                    android:gravity="center_vertical"
+                    android:hint="请输入WIFI名称"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/line_bg"
+                    android:textColor="@color/blacklight"
+                    android:textSize="@dimen/txt_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="WIFI密码"
+                    android:textColor="@color/blacklight"
+                    android:textSize="@dimen/txt_18" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/etWifiPwd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/device_round_corner"
+                        android:hint="请输入WIFI密码(至少8位)"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="30dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/line_bg"
+                        android:textColor="@color/blacklight"
+                        android:textSize="@dimen/txt_14" />
+
+                    <CheckBox
+                        android:id="@+id/cbVisible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:button="@drawable/cloud_device_pwd_selector"
+                        android:checked="false"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="10dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rgSecurity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line_bg" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/device_gray_bg"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="请选择加密方式"
+                android:textColor="@color/device_black"
+                android:textSize="@dimen/txt_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line_bg" />
+
+            <RadioButton
+                android:id="@+id/rb_wpa2"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:button="@null"
+                android:checked="false"
+                android:drawableRight="@drawable/cloud_device_radiobutton_selector"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:text="强加密WPA2"
+                android:textColor="@color/blacklight"
+                android:textSize="@dimen/txt_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line_bg" />
+
+            <RadioButton
+                android:id="@+id/rb_together"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:button="@null"
+                android:drawableRight="@drawable/cloud_device_radiobutton_selector"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:text="混合模式WPA/WPA2"
+                android:textColor="@color/blacklight"
+                android:textSize="@dimen/txt_18" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line_bg" />
+            <RadioButton
+                android:id="@+id/rb_nopwd"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:button="@null"
+                android:drawableRight="@drawable/cloud_device_radiobutton_selector"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:visibility="gone"
+                android:text="开放式模式"
+                android:textColor="@color/blacklight"
+                android:textSize="@dimen/txt_18" />
+
+            <View
+                android:id="@+id/vnopwd"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:visibility="gone"
+                android:background="@color/line_bg" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnCommit"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/equipment_confrim"
+            android:padding="5dp"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_20" />
+    </LinearLayout>
+
+</LinearLayout>

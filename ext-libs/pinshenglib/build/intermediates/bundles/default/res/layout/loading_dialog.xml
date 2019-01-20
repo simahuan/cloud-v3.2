@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="#F0FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/dialog_pb"
+            style="@style/myProgressBarStyleLarge"
+            android:layout_width="@dimen/progress_bar"
+            android:layout_height="@dimen/progress_bar"
+            android:indeterminateDuration="400" />
+
+        <ImageView
+            android:id="@+id/dialog_iv"
+            android:layout_width="@dimen/progress_bar"
+            android:layout_height="@dimen/progress_bar"
+            android:background="@drawable/progerss_ok"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/dialog_submit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="请稍等..."
+            android:textColor="@color/babybull"
+            android:textSize="16sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

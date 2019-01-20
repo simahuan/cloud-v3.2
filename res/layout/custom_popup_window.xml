@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="13dp"
+    >
+    
+    <GridView 
+        android:id="@+id/grdIcon"
+        android:layout_above="@+id/btnCancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="5dp"
+        android:cacheColorHint="#0000"
+      	android:scrollbars="none"
+      	android:background="@color/white"
+        />
+    
+     <Button 
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnCancle"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:text="取消"
+        android:textColor="#0073FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+      	android:background="@color/white"
+        />
+
+</RelativeLayout>

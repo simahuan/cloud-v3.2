@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F8FAFE">
+	
+    <com.pisen.router.ui.base.impl.DefaultNavigationBar 
+	    android:id="@+id/navibar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    /> 
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.pisen.router.common.view.ProgressWebView
+            android:id="@+id/wv_main_huiyuandi_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layerType="software" 
+            android:visibility="visible" />
+
+        <include layout="@layout/cloud_settings_huiyuandi_error_wifi" 
+            		android:visibility="gone"
+            />
+    </FrameLayout>
+
+</LinearLayout>

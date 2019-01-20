@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="320dp"
+    android:orientation="vertical"
+    android:background="@drawable/upgrade_dialog_toolbar_bg"
+    android:gravity="center"
+     >
+     <TextView
+        android:id="@+id/er"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/setting_wifi_disconnect"
+        android:text="您的网络不太顺畅哦~"
+        android:textColor="#999999"
+        android:textSize="16sp" />
+
+    
+        <LinearLayout
+           	android:layout_marginTop="25dp"
+        	android:layout_width="match_parent"
+        	android:layout_height="50dp"
+       	 	android:background="@drawable/app_dialog_toolbar_bg"
+			android:gravity="center"   	
+			android:layout_gravity="center"
+        	>
+        	<Button
+        	        android:layout_gravity="center"
+           		 	android:id="@+id/negativeButton"
+        			android:layout_width="0dp"
+            		android:layout_height="match_parent"
+            		android:layout_weight="1"
+           			android:background="@android:color/transparent"
+            		android:singleLine="true"
+            		android:text="刷新"
+           			android:textColor="#0073FF"
+            		android:textSize="16sp" />
+    	</LinearLayout>
+</LinearLayout>

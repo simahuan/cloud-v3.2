@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/mine_title_height"
+    android:background="@drawable/head_top" >
+
+    <ImageView
+        android:id="@+id/img_header_view_back_key"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-20dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/btn_titile_back_first_default"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_titlename_fragmenthead"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/img_header_view_back_key"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/actionbar_fornt_size" />
+
+    <ImageView
+        android:id="@+id/header_view_update_bt_fragmenthead"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:scaleType="center"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/header_view_down_bt"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/header_view_update_bt_fragmenthead"
+        android:scaleType="center"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/header_view_tv_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:scaleType="center"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/header_cb_ischeck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:visibility="gone" />
+    
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
+
+</RelativeLayout>

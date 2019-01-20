@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/welcome_guide_04">
+    <ImageView 
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgPisenLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome_pisen_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        />
+    
+    <TextView 
+        android:id="@+id/txtPublishVer"
+        android:layout_below="@id/imgPisenLogo"
+        style="@style/TextView.Version"
+        />
+    
+    <ImageView 
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="23dp"
+        android:layout_below="@id/txtPublishVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome_tiyan"
+        android:layout_centerHorizontal="true"
+        />
+    
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/welcome_skip_btn">
+        <Button
+            android:id="@+id/btnTiyan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/welcome_experience_immediately"
+            android:textColor="@color/white"
+            android:background="@null"/>
+    </FrameLayout>
+
+</RelativeLayout>

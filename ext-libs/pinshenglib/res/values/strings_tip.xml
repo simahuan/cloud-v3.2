@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tip_delete_subscribe_play">将删除 “name” 本地所有剧集，并取消自动追剧，是否继续？</string>
+    <string name="tip_delete_unsubscribe_play">将删除 “name” 本地所有剧集，是否继续？</string>
+    <string name="tip_download_empty">暂无下载</string>
+    <string name="tip_app_disconnected">App可能断开了与你盒子的连接，是否需要重新登陆</string>
+    
+</resources>

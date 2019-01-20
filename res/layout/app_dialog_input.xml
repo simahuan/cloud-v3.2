@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="320dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/app_inputtype_round_bg"
+     >
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+    
+    <TextView 
+        android:id="@+id/messageText"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="副标题"
+        android:textSize="12sp"
+        android:textColor="#999999"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/app_inputtext_corner_round"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/blacklight"
+        android:textSize="@dimen/txt_14" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/line_bg"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/app_dialog_toolbar_bg"
+        android:divider="@drawable/dialog_alert_divider"
+        android:orientation="horizontal"
+        android:showDividers="middle" 
+        >
+
+        <Button
+            style="?android:attr/buttonBarStyle"
+            android:id="@+id/negativeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_selector"
+            android:singleLine="true"
+            android:text="取消"
+            android:textColor="@color/dialog_button_text_color" 
+            android:textSize="@dimen/dialog_button_text_size"
+            />
+
+        <Button
+            style="?android:attr/buttonBarStyle"
+            android:id="@+id/positiveButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_selector"
+            android:singleLine="true"
+            android:text="确定"
+            android:textSize="@dimen/dialog_button_text_size"
+            android:textColor="@color/dialog_button_text_color" />
+    </LinearLayout>
+
+</LinearLayout>

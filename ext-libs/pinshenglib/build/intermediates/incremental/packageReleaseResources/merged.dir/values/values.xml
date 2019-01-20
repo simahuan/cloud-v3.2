@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_list">
+        <item>回到主页</item>
+        <item>未登陆</item>
+        <item>设置上网</item>
+        <item>分享网络</item>
+        <item>4G设置</item>
+        <item>通用设置</item>
+    </string-array>
+    <color name="actionbar_bg">#ECECEC</color>
+    <color name="actionbar_text_color">#ffffff</color>
+    <color name="application_background">#e4e3e4</color>
+    <color name="babybull">#00a0e9</color>
+    <color name="background_dark">#f4f4f4</color>
+    <color name="black">#000000</color>
+    <color name="blackname_number">#F4F4F6</color>
+    <color name="blue">#0099CC</color>
+    <color name="blue_normal">#ff33b5e5</color>
+    <color name="blue_pressed">#ff0099cc</color>
+    <color name="blue_t">#00a1ea</color>
+    <color name="btn_downloading">#F39900</color>
+    <color name="btn_install_n">#00A0E9</color>
+    <color name="btn_install_p">#0080BA</color>
+    <color name="btn_open_n">#E3E3E3</color>
+    <color name="btn_open_p">#B6B6B6</color>
+    <color name="btn_pressed_color">#0080BA</color>
+    <color name="btn_upgrade_n">#E60012</color>
+    <color name="btn_upgrade_p">#B8000E</color>
+    <color name="buy_werouter_n">#F39800</color>
+    <color name="buy_werouter_p">#C27900</color>
+    <color name="colournull">#00000000</color>
+    <color name="custom_dialog_background">#FFFFFF</color>
+    <color name="custom_dialog_press">#ECECEC</color>
+    <color name="custom_dialog_view">#D0D0D4</color>
+    <color name="customdialog_title">#838383</color>
+    <color name="darkorange">#FF9900</color>
+    <color name="detection_infos">#4A4A4A</color>
+    <color name="detection_state_exception">#F39800</color>
+    <color name="detection_state_noconnect">#A9A9A9</color>
+    <color name="detection_state_normal">#2EA7E2</color>
+    <color name="direct_watch_video_n">#00A0E9</color>
+    <color name="direct_watch_video_p">#0080BA</color>
+    <color name="discovery_black">#121212</color>
+    <color name="discovery_lightblue">#0693ff</color>
+    <color name="divide_color">#AEAEAE</color>
+    <color name="divide_color_black">#4E4E4E</color>
+    <color name="divide_color_black2">#4F4F4F</color>
+    <color name="dominant_background">#E5E5E5</color>
+    <color name="dominant_background2">#E3E3E3</color>
+    <color name="dominant_background3">#e4e3e4</color>
+    <color name="dominant_color">#00a0e9</color>
+    <color name="download_state_active">#00a1e9</color>
+    <color name="download_state_complete">#55BBFF</color>
+    <color name="download_state_error">#FF0033</color>
+    <color name="download_state_paused">#F79709</color>
+    <color name="download_state_waiting">#a0a0a0</color>
+    <color name="follow_no_n">#E60012</color>
+    <color name="follow_no_p">#B8000E</color>
+    <color name="follow_subscribe_bg">#50B7BBC0</color>
+    <color name="follow_yes_n">#9B9B9B</color>
+    <color name="follow_yes_p">#7C7C7C</color>
+    <color name="gold">#ffd700</color>
+    <color name="gray">#aeaeae</color>
+    <color name="gray_ss">#4e4e4e</color>
+    <color name="green_complete">#ff99cc00</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="internet_state_has_connect">#00A0E9</color>
+    <color name="internet_state_no_connect">#F39A06</color>
+    <color name="internet_state_off">#AFB0B0</color>
+    <color name="item_click_bg">#19000000</color>
+    <color name="item_click_bg2">#E5E5E5</color>
+    <color name="loading_dialog_bg">#000000</color>
+    <color name="localvideo_bg_no_over">#FFFFFF</color>
+    <color name="localvideo_bg_over">#F2F2F2</color>
+    <color name="localvideo_text_lasttime">#2EA7E2</color>
+    <color name="localvideo_text_no_over">#4A4A4A</color>
+    <color name="localvideo_text_over">#818181</color>
+    <color name="lv_item_click_bg">#0A000000</color>
+    <color name="mine_item_bg_n">#F4F4F6</color>
+    <color name="mine_item_divide">#D9D9DC</color>
+    <color name="orange">#FBA92D</color>
+    <color name="orange_st">#f39900</color>
+    <color name="outline">#808080ff</color>
+    <color name="pending_access">#F7A800</color>
+    <color name="play_bottom_controll_bg">#EDEDED</color>
+    <color name="play_empty_add_bg">#6E6E6E</color>
+    <color name="play_had_follow">#FFFFFF</color>
+    <color name="play_name_color">#4A4A4A</color>
+    <color name="play_not_follow">#FFFFFF</color>
+    <color name="problems_bg_p">#F4F4F6</color>
+    <color name="problems_title">#4A4A4A</color>
+    <color name="purple_progress">#ffaa66cc</color>
+    <color name="red">#FF0000</color>
+    <color name="red_error">#ffff4444</color>
+    <color name="refresh_btn_n">#4F4F4F</color>
+    <color name="search_text_color">#A9A9A9</color>
+    <color name="set_sharenet_color">#2EA7E2</color>
+    <color name="sgray">#6e6e6e</color>
+    <color name="share_actionbar_color">#4A4A4A</color>
+    <color name="share_manager">#818181</color>
+    <color name="storage_progress_color">#2EA7E2</color>
+    <color name="tab_widget_bg">#E6FFFFFF</color>
+    <color name="tb_munion_item_force">#e3e3e3</color>
+    <color name="text_n">#00a0e9</color>
+    <color name="text_p">#6e6e6e</color>
+    <color name="text_press_color">#000000</color>
+    <color name="text_unclick_color">#BDBDBD</color>
+    <color name="title_bg_color">#ECECEC</color>
+    <color name="transparency">#7fff0000</color>
+    <color name="upgrade_btn_bg">#F39801</color>
+    <color name="upgrade_text_color">#F59701</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="CropImageView"><attr name="crop">
+            <enum name="topLeft" value="0"/>
+            <enum name="centerLeft" value="1"/>
+            <enum name="bottomLeft" value="2"/>
+            <enum name="topRight" value="3"/>
+            <enum name="centerRight" value="4"/>
+            <enum name="bottomRight" value="5"/>
+            <enum name="centerTop" value="6"/>
+            <enum name="centerBottom" value="7"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FlatButton"><attr format="color" name="pb_colorPressed"/><attr format="color" name="pb_colorNormal"/><attr format="dimension" name="pb_cornerRadius"/></declare-styleable>
+    <declare-styleable name="FlowLayout"><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="FlowLayout_Layout"><attr name="android:layout_gravity"/></declare-styleable>
+    <declare-styleable name="ProcessButton"><attr format="string" name="pb_textProgress"/><attr format="string" name="pb_textComplete"/><attr format="string" name="pb_textError"/><attr format="color" name="pb_colorProgress"/><attr format="color" name="pb_colorComplete"/><attr format="color" name="pb_colorError"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="adapterViewBackground"/><attr format="reference|color" name="headerBackground"/><attr format="color" name="headerTextColor"/><attr name="mode">
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+            <flag name="both" value="0x3"/>
+        </attr><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode">
+            <flag name="disabled" value="0x0"/>
+            <flag name="pullFromStart" value="0x1"/>
+            <flag name="pullFromEnd" value="0x2"/>
+            <flag name="both" value="0x3"/>
+            <flag name="manualOnly" value="0x4"/>
+
+            
+            <flag name="pullDownFromTop" value="0x1"/>
+            <flag name="pullUpFromBottom" value="0x2"/>
+        </attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0"/>
+            <flag name="flip" value="0x1"/>
+        </attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/><attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr></declare-styleable>
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    <dimen name="ChattingContentMinHeight">49.0dip</dimen>
+    <dimen name="ChuZhuangWH">40.0dip</dimen>
+    <dimen name="LargeTextSize">16.0dip</dimen>
+    <dimen name="LargestTextSize">30.0dip</dimen>
+    <dimen name="SmallTextSize">14.0dip</dimen>
+    <dimen name="SmallerTextSize">13.0dip</dimen>
+    <dimen name="TitleTextSize">18.0dip</dimen>
+    <dimen name="action_bar_default_height">48dp</dimen>
+    <dimen name="actionbar_fornt_size">18sp</dimen>
+    <dimen name="actionbar_height">67dp</dimen>
+    <dimen name="actionbar_icon_height">30dp</dimen>
+    <dimen name="actionbar_left_margin">10dp</dimen>
+    <dimen name="actionbar_right_margin">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_other">12sp</dimen>
+    <dimen name="app_titlename_fornt_size">18sp</dimen>
+    <dimen name="circle_play_font">10sp</dimen>
+    <dimen name="corner_radius">0dp</dimen>
+    <dimen name="default_front_size">15sp</dimen>
+    <dimen name="detection_infos_text_textsize">12sp</dimen>
+    <dimen name="detection_opt_text_height">30dp</dimen>
+    <dimen name="detection_opt_text_textsize">18sp</dimen>
+    <dimen name="detection_opt_text_width">130dp</dimen>
+    <dimen name="detection_progress_circle_width">36sp</dimen>
+    <dimen name="detection_progress_text_textsize">36sp</dimen>
+    <dimen name="detection_repairing_text_textsize">28sp</dimen>
+    <dimen name="detection_result_text_textsize">16sp</dimen>
+    <dimen name="detection_state_text_margintop">140dp</dimen>
+    <dimen name="detection_state_text_textsize">16sp</dimen>
+    <dimen name="detection_tip_image_width">220dp</dimen>
+    <dimen name="dialog_margin_lefe">10dp</dimen>
+    <dimen name="head_titlename_fornt_size">20sp</dimen>
+    <dimen name="internet_detection_btn_height">30dp</dimen>
+    <dimen name="internet_detection_btn_width">130dp</dimen>
+    <dimen name="internet_state_image_size">70dp</dimen>
+    <dimen name="internet_state_item_height">48dp</dimen>
+    <dimen name="internet_state_item_info_height">190dp</dimen>
+    <dimen name="internet_state_item_info_height2">220dp</dimen>
+    <dimen name="internet_state_item_margin">5dp</dimen>
+    <dimen name="internet_state_text_size">14dp</dimen>
+    <dimen name="layer_padding">0dp</dimen>
+    <dimen name="list_marginbottom">10dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="margin_bottom">15dp</dimen>
+    <dimen name="margin_doubleside">5dp</dimen>
+    <dimen name="margin_oneside">5dp</dimen>
+    <dimen name="margin_playlisttop">2dp</dimen>
+    <dimen name="margin_playtextitem">15dp</dimen>
+    <dimen name="margin_text_right">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="mediacontroller_button_space">32dp</dimen>
+    <dimen name="mediacontroller_buttons_bottom_margin">0dp</dimen>
+    <dimen name="mediacontroller_buttons_top_margin">2dp</dimen>
+    <dimen name="mine_drawable">76dp</dimen>
+    <dimen name="mine_edittext_top">27dp</dimen>
+    <dimen name="mine_imageview_status">30dp</dimen>
+    <dimen name="mine_ip_textview_width">87dp</dimen>
+    <dimen name="mine_margintop">25dp</dimen>
+    <dimen name="mine_padding_left">9dp</dimen>
+    <dimen name="mine_scan">212dp</dimen>
+    <dimen name="mine_set_ll_height">77dp</dimen>
+    <dimen name="mine_set_use_imageview_height">24dp</dimen>
+    <dimen name="mine_set_use_imageview_width">97dp</dimen>
+    <dimen name="mine_set_use_marginleft">20dp</dimen>
+    <dimen name="mine_set_use_margintop">21dp</dimen>
+    <dimen name="mine_set_use_textview">65dp</dimen>
+    <dimen name="mine_setsharing_top">35dp</dimen>
+    <dimen name="mine_sharinginfo_bottom">35dp</dimen>
+    <dimen name="mine_sharinginfo_drawable">28dp</dimen>
+    <dimen name="mine_status_left">10dp</dimen>
+    <dimen name="mine_status_top">40dp</dimen>
+    <dimen name="mine_storage_left">15dp</dimen>
+    <dimen name="mine_storage_round_background_width">118dp</dimen>
+    <dimen name="mine_storage_round_width">109dp</dimen>
+    <dimen name="mine_storage_text_top">15dp</dimen>
+    <dimen name="mine_storage_top">25dp</dimen>
+    <dimen name="mine_storage_top_2">20dp</dimen>
+    <dimen name="mine_textview_confirm_height">45dp</dimen>
+    <dimen name="mine_textview_height">55dp</dimen>
+    <dimen name="mine_textview_width">82dp</dimen>
+    <dimen name="mine_title_back_width">40dp</dimen>
+    <dimen name="mine_title_height">67dp</dimen>
+    <dimen name="mine_title_imageview_right">30dp</dimen>
+    <dimen name="mine_user_head_height">142dp</dimen>
+    <dimen name="mine_user_head_portrait">70dp</dimen>
+    <dimen name="mine_user_marginleft">5dp</dimen>
+    <dimen name="mine_user_margintop">40dp</dimen>
+    <dimen name="mine_wifi_accounts_width">156dp</dimen>
+    <dimen name="mine_wifi_info_drawable_height">100dp</dimen>
+    <dimen name="notify_btn_height">30dp</dimen>
+    <dimen name="notify_btn_width">70dp</dimen>
+    <dimen name="notify_height">42dp</dimen>
+    <dimen name="notify_lin_height">91dp</dimen>
+    <dimen name="notify_margin">10dp</dimen>
+    <dimen name="notify_set_wxb_drawable">29dp</dimen>
+    <dimen name="online_textsize">5dp</dimen>
+    <dimen name="play_font_size">18sp</dimen>
+    <dimen name="play_item_height">125dp</dimen>
+    <dimen name="play_item_width">360dp</dimen>
+    <dimen name="play_padding_size">2dp</dimen>
+    <dimen name="play_update_font">15sp</dimen>
+    <dimen name="playlistitem_font_size">16sp</dimen>
+    <dimen name="progress_bar">38dp</dimen>
+    <dimen name="search_item_hight_dp">35sp</dimen>
+    <dimen name="search_item_margin_dp">5dp</dimen>
+    <dimen name="search_item_stroke_width">1dp</dimen>
+    <dimen name="search_item_text_size">18sp</dimen>
+    <dimen name="search_page_padding_left">20dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">150dp</dimen>
+    <dimen name="video_bottom_item_height">30dp</dimen>
+    <dimen name="video_bottom_item_marginright">20dp</dimen>
+    <dimen name="video_bottom_item_width">120dp</dimen>
+    <dimen name="video_bottom_ll_height">45dp</dimen>
+    <dimen name="video_checkbox_width">30dp</dimen>
+    <dimen name="video_item_margins">10dp</dimen>
+    <dimen name="video_item_width">75dp</dimen>
+    <dimen name="wxb_fontsize_14">14sp</dimen>
+    <dimen name="wxb_fontsize_15">15sp</dimen>
+    <dimen name="wxb_fontsize_16">16sp</dimen>
+    <dimen name="wxb_fontsize_17">17sp</dimen>
+    <dimen name="wxb_fontsize_18">18sp</dimen>
+    <dimen name="wxb_fontsize_20">20sp</dimen>
+    <dimen name="wxb_fontsize_24">24sp</dimen>
+    <drawable name="actionbar_back">#ef202020</drawable>
+    <drawable name="actionbar_textcolor">#6e6e6e</drawable>
+    <drawable name="app_title_background">#E1E1E1</drawable>
+    <drawable name="application_background">#e4e3e4</drawable>
+    <drawable name="application_bar_background">#ececec</drawable>
+    <drawable name="application_textcolor">#666666</drawable>
+    <drawable name="bottom_textcolor">#55BBFF</drawable>
+    <drawable name="play_btn_color">#44B4FF</drawable>
+    <drawable name="play_font_color">#FFFFFF</drawable>
+    <drawable name="upgrade_textcolor">#F79709</drawable>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">对不起，这个视频在当前设备不支持播放</string>
+    <string name="VideoView_error_text_unknown">对不起,这个视频不能播放。</string>
+    <string name="VideoView_error_title">无法播放</string>
+    <string name="WIFINetwork">追剧神器列表</string>
+    <string name="access_audit">接入审核</string>
+    <string name="access_audit_text">正在申请接入盒子,是否同意接入？</string>
+    <string name="action_mine">盒子的状态</string>
+    <string name="action_mine_internet">互联网设置</string>
+    <string name="action_mine_internet_line">有线网络设置</string>
+    <string name="action_mine_internet_relay">无线中继设置</string>
+    <string name="action_mine_lab">实验室</string>
+    <string name="action_mine_more">更多</string>
+    <string name="action_mine_set">应用设置</string>
+    <string name="action_mine_set_about">关于我们</string>
+    <string name="action_mine_set_feedback">意见反馈</string>
+    <string name="action_mine_share">我的共享</string>
+    <string name="action_mine_share_blacklist">黑名单</string>
+    <string name="action_mine_shutdown">关机</string>
+    <string name="action_mine_store">存储状态</string>
+    <string name="action_mine_upgrade">神器升级</string>
+    <string name="action_mine_user">用户</string>
+    <string name="action_mine_wifi">Wifi配置</string>
+    <string name="action_video_details">剧集详情</string>
+    <string name="action_video_download">下载管理</string>
+    <string name="action_video_follow">爱追剧</string>
+    <string name="action_video_online">视频分类</string>
+    <string name="action_video_search">搜索</string>
+    <string name="add_blackname">加入黑名单</string>
+    <string name="add_blackname_text">该操作会将网络加入黑名单，是否同意加入黑名单?</string>
+    <string name="agree">同意</string>
+    <string name="app_name">追剧神器</string>
+    <string name="back_confirm">再按一下 退出应用</string>
+    <string name="blackname_list">黑名单</string>
+    <string name="check_title1">· 当前固件版本号:</string>
+    <string name="check_title2">· 最新固件版本号:</string>
+    <string name="check_title3">· 当前固件版本有更新:</string>
+    <string name="closing_file">正在退出…</string>
+    <string name="confirm">提交</string>
+    <string name="content_desc_back">退出</string>
+    <string name="content_desc_lock">锁定</string>
+    <string name="detection_opt_cancel">取消</string>
+    <string name="detection_opt_config_internet">建议设置外网</string>
+    <string name="detection_opt_fully">深度检测</string>
+    <string name="detection_opt_repair">立即修复</string>
+    <string name="detection_opt_repairing">修复中…</string>
+    <string name="detection_repair_bw_content">当前网络速度过慢，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_bw_title">网速过慢</string>
+    <string name="detection_repair_ip_config_content">IP地址冲突，建议重新修复或者尝试重启设备</string>
+    <string name="detection_repair_ip_config_title">IP地址冲突</string>
+    <string name="detection_repair_line_content">当前无法连接互联网，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_line_title">无线网络信号不好</string>
+    <string name="detection_repair_net_con_tentent">当前无法连接互联网，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_net_con_title">无法连接到互联网</string>
+    <string name="detection_repair_sock_content">服务器连接异常，是否自动修复</string>
+    <string name="detection_repair_sock_title">服务器连接异常</string>
+    <string name="detection_repair_sq_content">当前无法连接互联网，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_sq_title">无线网络信号不好</string>
+    <string name="detection_repair_store_content">设备存储状态异常,设备将在30秒后重启修复</string>
+    <string name="detection_repair_store_title">设备存储异常</string>
+    <string name="detection_repair_up_con_content">当前无法连接互联网，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_up_con_title">无法连接到互联网</string>
+    <string name="detection_state_detectioned">检测完成</string>
+    <string name="detection_state_detectioning">正在检测中…</string>
+    <string name="detection_state_exception">网络异常</string>
+    <string name="detection_state_noconnect">网络未连接</string>
+    <string name="detection_state_normal">网络正常</string>
+    <string name="detection_state_repairing">修复中…</string>
+    <string name="device_init_tips">*密码及设备名称同时用于wifi接入</string>
+    <string name="devices_list">设备列表</string>
+    <string name="dialog_title">接入申请</string>
+    <string name="dlan_tips">开启家庭共享即可快速进入多屏展示模式,多终端快速访问盒子。</string>
+    <string name="download">Download</string>
+    <string name="download_label">Download Address</string>
+    <string name="error_wxb_not_connect">设备未连接到追剧神器</string>
+    <string name="file_delete">删除</string>
+    <string name="file_delete_confirm">确定删除 (%s) ？</string>
+    <string name="file_explorer_sdcard_not_available">SD卡无法读取</string>
+    <string name="file_oper">文件操作</string>
+    <string name="file_rename">重命名</string>
+    <string name="file_rename_exists">文件已存在</string>
+    <string name="file_rename_failed">重命名失败</string>
+    <string name="firewareupgrade">固件升级</string>
+    <string name="function_selection">功能选择</string>
+    <string name="hint_wifinameinput">请输入神器名称</string>
+    <string name="hint_wifipasswordinput">请输入密码</string>
+    <string name="hot_search_list">热搜榜</string>
+    <string name="ignore">忽略</string>
+    <string name="imageview_content_description"/>
+    <string name="init_decoders">初始化播放器...</string>
+    <string name="initializesetting">初始化设置</string>
+    <string name="initializewifi">请设置设备名称与密码</string>
+    <string name="ip_address">.0123456789</string>
+    <string name="ip_adress">无线IP地址</string>
+    <string name="is_finding_device">正在查找设备中...</string>
+    <string name="lab_home_share">家庭共享</string>
+    <string name="line_state_has_connect">网线已连接</string>
+    <string name="line_state_no_connect">网线已连接</string>
+    <string name="line_state_off">网线未连接</string>
+    <string name="line_tip_has_connect">互联网正常,点击启动配置向导</string>
+    <string name="line_tip_no_connect">无法连接至互联网,点击启动配置向导</string>
+    <string name="line_tip_off">请连接网线,点击启动手动配置</string>
+    <string name="loadinfo">载入中，请稍等...</string>
+    <string name="mediacontroller_play_next">下一集</string>
+    <string name="mediacontroller_play_pause">开始/暂停</string>
+    <string name="mediacontroller_play_previous">上一集</string>
+    <string name="mine_play">我的追剧</string>
+    <string name="modify_ip_adress">无线IP地址,点击进行修改</string>
+    <string name="more_set">更多设置</string>
+    <string name="name_set">名称设置</string>
+    <string name="net_list">网络列表</string>
+    <string name="net_name">名称</string>
+    <string name="net_visitor">访客开关</string>
+    <string name="ok">确定</string>
+    <string name="pending_access">待接入</string>
+    <string name="personality_slogan">标语</string>
+    <string name="player_tip_next">即将播放下一集</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新...</string>
+    <string name="pull_to_refresh_refreshing_label">读取中...</string>
+    <string name="pull_to_refresh_release_label">松开即可刷新...</string>
+    <string name="pull_to_refresh_tap_label">刷新</string>
+    <string name="register_name_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="register_password_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>
+    <string name="relay_state_has_connect">无线中继已连接</string>
+    <string name="relay_state_no_connect">无线中继已连接</string>
+    <string name="relay_state_off">无线中继未连接</string>
+    <string name="relay_tip_has_connect">点击进入选择接入wifi</string>
+    <string name="relay_tip_no_connect">无法访问互联网,点击进入选择接入wifi</string>
+    <string name="relay_tip_off">点击进入选择接入wifi</string>
+    <string name="remember_password">记住密码</string>
+    <string name="remove">Stop</string>
+    <string name="remove_blackname">清空黑名单</string>
+    <string name="removeall_blackname_text">该黑名单列表将被清空,访客再次接入时将不再被屏蔽</string>
+    <string name="resume">Resume</string>
+    <string name="retry">Retry</string>
+    <string name="sd_hasmouted">SD卡不可用，请检查设备是否安装！</string>
+    <string name="search_hint">大家都在搜\"破产姐妹\"</string>
+    <string name="search_history">搜索历史</string>
+    <string name="search_hotword">热搜词</string>
+    <string name="set_net_visitor">设置共享网络与标语</string>
+    <string name="set_share">访客</string>
+    <string name="share">共享</string>
+    <string name="share_ip_adress">共享IP地址</string>
+    <string name="sharenet_save">保存</string>
+    <string name="show_password">显示密码</string>
+    <string name="stop">Stop</string>
+    <string name="store_info_des">盒子总空间xB/剩余yB</string>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <string name="tip_app_disconnected">App可能断开了与你盒子的连接，是否需要重新登陆</string>
+    <string name="tip_delete_subscribe_play">将删除 “name” 本地所有剧集，并取消自动追剧，是否继续？</string>
+    <string name="tip_delete_unsubscribe_play">将删除 “name” 本地所有剧集，是否继续？</string>
+    <string name="tip_download_empty">暂无下载</string>
+    <string name="title_file">本地视频</string>
+    <string name="title_online">在线视频</string>
+    <string name="token">获取token</string>
+    <string name="upgrade_describe">1 xxxxxxxxx\n2 yyyyyyyyyyy</string>
+    <string name="version_name">1.0</string>
+    <string name="video_cannot_play">对不起,这个视频不能播放。</string>
+    <string name="video_crop">裁剪</string>
+    <string name="video_fit_screen">全屏</string>
+    <string name="video_layout_buffering_progress">缓冲: %.2f%%</string>
+    <string name="video_layout_loading">正在缓冲...</string>
+    <string name="video_original">100%</string>
+    <string name="video_screen_locked">屏幕已锁定</string>
+    <string name="video_screen_unlocked">屏幕锁定已解除</string>
+    <string name="video_screenshot_failed">截图失败</string>
+    <string name="video_screenshot_save_in">截图存放在 %s.</string>
+    <string name="video_stretch">拉伸</string>
+    <string name="visitor_confirm">访客接入确认</string>
+    <string name="visitor_list">当前访客</string>
+    <string name="visitor_share">访客共享上网</string>
+    <string name="vitamio_init_decoders">初始化中...</string>
+    <string name="werouter_tips_content1">追剧神器已经为您准备好</string>
+    <string name="werouter_tips_content2">的免流量安装包,点击确认即进行零流量、秒安装</string>
+    <string name="werouter_tips_title">温馨提示, 免流量秒安装</string>
+    <string name="wifi_list_buy_device">购买追剧神器</string>
+    <string name="wifi_list_drect_online_video">直接观看视频</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="CustomCirclePageIndicator">
+        <item name="fillColor">#FF888888</item>
+        <item name="strokeColor">#FF000000</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="radius">1dp</item>
+        <item name="centered">true</item>
+    </style>
+    <style name="CustomLinePageIndicator">
+        <item name="strokeWidth">4dp</item>
+        <item name="lineWidth">30dp</item>
+        <item name="unselectedColor">#FF888888</item>
+        <item name="selectedColor">#FF880000</item>
+    </style>
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/vpi_tab_bg</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">@drawable/vpi_title_textcolor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item> <!-- 右边线上下距离 -->
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="CustomTitlePageIndicator">
+        <item name="android:background">#18FF0000</item>
+        <item name="footerColor">#FFAA2222</item>
+        <item name="footerLineHeight">1dp</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="android:textColor">#AA000000</item>
+        <item name="selectedColor">#FF000000</item>
+        <item name="selectedBold">true</item>
+    </style>
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">#FFCC0000</item>
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">1000</item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="InfoPanel_Container">
+        <item name="android:background">@color/mediacontroller_bg</item>
+    </style>
+    <style name="MediaController_Button">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/mediacontroller_btn_bg</item>
+    </style>
+    <style name="MediaController_Container">
+        <item name="android:background">@color/mediacontroller_bg</item>
+        <item name="android:paddingTop">4dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+    </style>
+    <style name="MediaController_SeekBar_new">
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:progressDrawable">@drawable/mediacontroller_seekbar</item>
+        <item name="android:thumb">@drawable/mediacontroller_seekbar_thumb</item>
+    </style>
+    <style name="MediaController_Text">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="VpiTheme" parent="AppBaseTheme">
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+        <item name="vpiLinePageIndicatorStyle">@style/CustomLinePageIndicator</item>
+        <item name="vpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+    </style>
+    <style name="Widget.ZI.SeekBar" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/seekber_control_selector_holo</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+    <style name="bottom_blue_tv_btn_style" parent="@style/bottom_tv_btn_style">
+        <item name="android:background">@drawable/selector_btn_blue</item>
+    </style>
+    <style name="bottom_ll_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/video_bottom_ll_height</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/video_bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textSize">@dimen/playlistitem_font_size</item>
+    </style>
+    <style name="bottom_orange_tv_btn_style" parent="@style/bottom_tv_btn_style">
+        <item name="android:background">@drawable/selector_btn_orange</item>
+    </style>
+    <style name="bottom_tv_btn_style">
+        <item name="android:layout_width">@dimen/video_bottom_item_width</item>
+        <item name="android:layout_height">@dimen/video_bottom_item_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/playlistitem_font_size</item>
+    </style>
+    <style name="custom_dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowCloseOnTouchOutside">false</item> 
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ip_edittext_style">
+       	<item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:digits">@string/ip_address</item>
+        <item name="android:ems">15</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:singleLine">true</item>     
+        <item name="android:textSize">@dimen/wxb_fontsize_16</item>
+    </style>
+    <style name="loading_dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/loading_dialog_bg</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <!-- <item name="android:paddingTop">5.0dip</item> -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:drawablePadding">3.0dip</item> -->
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/home_btn_bg</item>
+    </style>
+    <style name="myProgressBarStyleLarge">
+        <item name="android:indeterminateDrawable">@anim/loading_rotate</item>
+        <item name="android:minWidth">@dimen/progress_bar</item>
+        <item name="android:maxWidth">@dimen/progress_bar</item>
+        <item name="android:minHeight">@dimen/progress_bar</item>
+        <item name="android:maxHeight">@dimen/progress_bar</item>
+    </style>
+    <style name="search_history_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/search_item_hight_dp</item>
+        <item name="android:layout_margin">@dimen/search_item_margin_dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/share_manager</item>
+        <item name="android:textSize">@dimen/search_item_text_size</item>
+        <item name="android:background">@drawable/search_history_text_bg</item>
+    </style>
+    <style name="search_hotword_text_style" parent="search_history_text_style">
+        <item name="android:textColor">@color/set_sharenet_color</item>
+    </style>
+    <style name="search_title_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/share_manager</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="sharing_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blue_t</item>
+        <item name="android:textSize">@dimen/wxb_fontsize_14</item>
+        <item name="android:paddingLeft">3dp</item>
+    </style>
+    <style name="user_record">
+       <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mine_textview_height</item>
+        <item name="android:textSize">16sp</item>
+         <item name="android:paddingLeft">@dimen/mine_user_marginleft</item>
+         <item name="android:textColor">@color/gray_ss</item>
+         <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <View
+        android:id="@+id/divider_ver"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:background="#ccc" />
+
+    <com.sticky.gridheaders.StickyGridHeadersGridView
+        android:id="@+id/headerGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clipToPadding="false"
+        android:columnWidth="68dp"
+        android:horizontalSpacing="4dp"
+        android:paddingLeft="35dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp" />
+
+    <TextView
+        android:id="@+id/msgToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="消息提示"
+        android:textColor="#999999"
+        android:visibility="visible" />
+
+</FrameLayout>

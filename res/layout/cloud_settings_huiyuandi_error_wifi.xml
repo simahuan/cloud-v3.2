@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/errorLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible">
+            
+        	<View 
+        	    android:id="@+id/middle"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="1dp"
+        	    android:layout_margin="10dp"
+        	    android:layout_centerInParent="true"/>
+        
+            <TextView 
+                android:id="@+id/er"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_above="@+id/middle"
+                android:textColor="#999999"
+                android:textSize="16sp"
+                android:drawableTop="@drawable/setting_wifi_disconnect"
+                android:text="您的网络不太顺畅哦~"/>
+            <Button 
+	            android:id="@+id/btnRefresh"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:minWidth="100dp"
+	            android:layout_below="@+id/middle"
+	            android:text="刷新"
+	            android:background="@drawable/setting_refresh_network_bg"
+	            android:padding="5dp"
+	            android:layout_centerInParent="true"
+	            android:textColor="#FFFFFF"
+	            />
+    </RelativeLayout>

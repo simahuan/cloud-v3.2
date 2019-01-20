@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="27dp"
+    android:background="@color/header_bg_gray"
+    android:orientation="horizontal"
+    android:paddingLeft="13dp"
+    android:gravity="right|center_vertical"
+    android:paddingRight="13dp" >
+
+    <TextView
+        android:id="@+id/txtuploadcount"
+        android:layout_width="0dp"
+        android:layout_height="27dp"
+        android:gravity="center_vertical"
+        android:text="2"
+        android:layout_weight="1"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/txtpauseall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="全部暂停"
+        android:textColor="@color/tabstrip_indicator"
+        android:textSize="11sp" />
+
+</LinearLayout>

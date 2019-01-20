@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="token">获取token</string>
+    <string name="app_name">追剧神器</string>
+    <string name="sd_hasmouted">SD卡不可用，请检查设备是否安装！</string>
+    <string name="initializewifi">请设置设备名称与密码</string>
+    <string name="initializesetting">初始化设置</string>
+    <string name="hint_wifinameinput">请输入神器名称</string>
+    <string name="hint_wifipasswordinput">请输入密码</string>
+    <string name="show_password">显示密码</string>
+    <string name="remember_password">记住密码</string>
+    <string name="ok">确定</string>
+    <string name="WIFINetwork">追剧神器列表</string>
+  
+    <string name="mine_play">我的追剧</string>
+    <string name="firewareupgrade">固件升级</string>
+    <string name="download_label">Download Address</string>
+    <string name="download">Download</string>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="retry">Retry</string>
+    <string name="remove">Stop</string>
+    
+    <!-- 下拉刷新控件提示语 -->
+    <string name="pull_to_refresh_pull_label">下拉可以刷新...</string>
+    <string name="pull_to_refresh_release_label">松开即可刷新...</string>
+    <string name="pull_to_refresh_refreshing_label">读取中...</string>
+    <string name="pull_to_refresh_tap_label">刷新</string>
+    
+    <string name="back_confirm">再按一下 退出应用</string>
+    <string name="register_name_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>  
+    <string name="register_password_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string>  
+    <string name="ip_address">.0123456789</string>
+    <string name="werouter_tips_title">温馨提示, 免流量秒安装</string>
+    <string name="werouter_tips_content1">追剧神器已经为您准备好</string>
+    <string name="werouter_tips_content2">的免流量安装包,点击确认即进行零流量、秒安装</string>
+    <string name="wifi_list_drect_online_video">直接观看视频</string>  
+    <string name="wifi_list_buy_device">购买追剧神器</string>
+    <string name="upgrade_describe">1 xxxxxxxxx\n2 yyyyyyyyyyy</string>
+    <string name="is_finding_device">正在查找设备中...</string>
+    <string name="device_init_tips">*密码及设备名称同时用于wifi接入</string>
+    
+    <!-- 外网 -->
+    <string name="line_state_off">网线未连接</string>
+    <string name="line_state_no_connect">网线已连接</string>
+    <string name="line_state_has_connect">网线已连接</string>
+    <string name="line_tip_off">请连接网线,点击启动手动配置</string>
+    <string name="line_tip_no_connect">无法连接至互联网,点击启动配置向导</string>
+    <string name="line_tip_has_connect">互联网正常,点击启动配置向导</string>
+    
+    <string name="relay_state_off">无线中继未连接</string>
+    <string name="relay_state_no_connect">无线中继已连接</string>
+    <string name="relay_state_has_connect">无线中继已连接</string>
+    <string name="relay_tip_off">点击进入选择接入wifi</string>
+    <string name="relay_tip_no_connect">无法访问互联网,点击进入选择接入wifi</string>
+    <string name="relay_tip_has_connect">点击进入选择接入wifi</string>
+    
+    <!-- 网络自检 -->
+    <string name="detection_state_normal">网络正常</string>
+    <string name="detection_state_exception">网络异常</string>
+    <string name="detection_state_noconnect">网络未连接</string>
+    <string name="detection_state_detectioning">正在检测中&#8230;</string>
+    <string name="detection_state_detectioned">检测完成</string>
+    <string name="detection_state_repairing">修复中&#8230;</string>
+    
+    <string name="detection_opt_fully">深度检测</string>
+    <string name="detection_opt_config_internet">建议设置外网</string>
+    <string name="detection_opt_cancel">取消</string>
+    <string name="detection_opt_repair">立即修复</string>
+    <string name="detection_opt_repairing">修复中&#8230;</string>
+    
+    <string name="detection_repair_store_title">设备存储异常</string>
+    <string name="detection_repair_store_content">设备存储状态异常,设备将在30秒后重启修复</string>
+    <string name="detection_repair_ip_config_title">IP地址冲突</string>
+    <string name="detection_repair_ip_config_content">IP地址冲突，建议重新修复或者尝试重启设备</string>
+    <string name="detection_repair_sq_title">无线网络信号不好</string>
+    <string name="detection_repair_sq_content">当前无法连接互联网，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_line_title">无线网络信号不好</string>
+    <string name="detection_repair_line_content">当前无法连接互联网，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_up_con_title">无法连接到互联网</string>
+    <string name="detection_repair_up_con_content">当前无法连接互联网，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_net_con_title">无法连接到互联网</string>
+    <string name="detection_repair_net_con_tentent">当前无法连接互联网，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_bw_title">网速过慢</string>
+    <string name="detection_repair_bw_content">当前网络速度过慢，建议检查互联网连接状态或者更换网络</string>
+    <string name="detection_repair_sock_title">服务器连接异常</string>
+    <string name="detection_repair_sock_content">服务器连接异常，是否自动修复</string>
+    
+    <string name="error_wxb_not_connect">设备未连接到追剧神器</string>
+    
+    <!-- 升级相关描述文本 -->
+    <string name="check_title1">· 当前固件版本号:</string>
+    <string name="check_title2">· 最新固件版本号:</string>
+    <string name="check_title3">· 当前固件版本有更新:</string>
+    
+    <!-- action -->
+    <string name="action_video_follow">爱追剧</string>
+    <string name="action_video_online">视频分类</string>
+    <string name="action_video_download">下载管理</string>
+    <string name="action_video_details">剧集详情</string>
+    <string name="action_video_search">搜索</string>
+    
+    <string name="action_mine">盒子的状态</string>
+    
+    <string name="action_mine_set">应用设置</string>
+    <string name="action_mine_set_about">关于我们</string>
+    <string name="action_mine_set_feedback">意见反馈</string>
+    
+    <string name="action_mine_wifi">Wifi配置</string>
+    <string name="action_mine_internet">互联网设置</string>
+    <string name="action_mine_internet_line">有线网络设置</string>
+    <string name="action_mine_internet_relay">无线中继设置</string>
+    <string name="action_mine_user">用户</string>
+    <string name="action_mine_store">存储状态</string>
+    <string name="action_mine_share">我的共享</string>
+    <string name="action_mine_share_blacklist">黑名单</string>
+    <string name="action_mine_shutdown">关机</string>
+    <string name="action_mine_upgrade">神器升级</string>
+    <string name="action_mine_more">更多</string>
+    <string name="action_mine_lab">实验室</string>
+    
+    <!-- 实验室 -->
+    <string name="lab_home_share">家庭共享</string>
+    <string name="dlan_tips">开启家庭共享即可快速进入多屏展示模式,多终端快速访问盒子。</string>
+
+ 	<!-- 共享 -->
+ 	<string name="sharenet_save">保存</string>
+	<string name="net_visitor">访客开关</string>
+	<string name="set_share">访客</string>
+	<string name="visitor_list">当前访客</string>
+	<string name="blackname_list">黑名单</string>
+	<string name="share">共享</string>
+	<string name="set_net_visitor">设置共享网络与标语</string>
+	<string name="net_name">名称</string>
+	<string name="personality_slogan">标语</string>
+	<string name="function_selection">功能选择</string>
+	<string name="visitor_confirm">访客接入确认</string>
+	<string name="visitor_share">访客共享上网</string>
+	<string name="more_set">更多设置</string>
+	<string name="share_ip_adress">共享IP地址</string>
+	<string name="confirm">提交</string>
+	<string name="ip_adress">无线IP地址</string>
+	<string name="modify_ip_adress">无线IP地址,点击进行修改</string>
+	<string name="access_audit">接入审核</string>
+	<string name="access_audit_text">正在申请接入盒子,是否同意接入？</string>
+	<string name="remove_blackname">清空黑名单</string>
+	<string name="removeall_blackname_text">该黑名单列表将被清空,访客再次接入时将不再被屏蔽</string>
+	<string name="dialog_title">接入申请</string>
+	<string name="agree">同意</string>
+	<string name="ignore">忽略</string>
+	<string name="pending_access">待接入</string>
+	<string name="add_blackname">加入黑名单</string>
+	<string name="add_blackname_text">该操作会将网络加入黑名单，是否同意加入黑名单?</string>
+	<string name="devices_list">设备列表</string>
+	<string name="name_set">名称设置</string>
+	<string name="net_list">网络列表</string>
+	
+	<string name="hot_search_list">热搜榜</string>
+	<string name="search_hint">大家都在搜\"破产姐妹\"</string>
+</resources>

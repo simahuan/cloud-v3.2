@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	>
+   	
+   	<ImageView
+   	    android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuideRouter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/router_guide_router" 
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="-14dp"
+        android:layout_marginLeft="-19dp" 
+        />
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuideCloud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-13dp"
+     	android:layout_marginRight="-16dp"
+        android:src="@drawable/router_guide_private_cloud"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuidePullDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/router_guide_pulldown"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-14dp"
+        android:layout_marginLeft="-13dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imgGuideRecord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/router_guide_transfer_record"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-27dp"
+        android:layout_marginRight="0dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+    
+</RelativeLayout>

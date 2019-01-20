@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flashtransfer_toolbar_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#5BA5FF" >
+
+    <TextView
+        android:id="@+id/txtTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/ic_flashtransfer_do"
+        android:focusable="true"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/ibtnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/ic_flashtransfer_close_bottom_white" />
+
+</RelativeLayout>

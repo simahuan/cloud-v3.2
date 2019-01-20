@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/AccountItemRowLayout" >
+
+        <TextView
+            style="@style/TextView.AccountItemLeft"
+            android:text="手机号码" />
+
+        <EditText
+            android:id="@+id/account_register_edt_phone"
+            style="@style/EditText.Account.Phone"
+            android:hint="请输入手机号" />
+    </LinearLayout>
+
+    <View style="@style/AppLineFillWidth" />
+
+    <LinearLayout
+        android:id="@+id/account_register_layout_verifycode"
+        style="@style/AccountItemRowLayout" >
+
+        <TextView
+            style="@style/TextView.AccountItemLeft"
+            android:text="验证码" />
+
+        <RelativeLayout style="@style/AccountItemRowRightLayout" >
+
+            <EditText
+                android:id="@+id/account_register_edt_verifycode"
+                style="@style/EditText.Account.Normal"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:hint="请输入短信验证码" />
+
+            <TextView
+                android:id="@+id/account_register_txt_getVerifycode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="获取验证码"
+                android:textColor="@color/account_disable"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View style="@style/AppLineFillWidth" />
+
+    <LinearLayout style="@style/AccountItemRowLayout" >
+
+        <TextView
+            style="@style/TextView.AccountItemLeft"
+            android:text="密码" />
+
+        <EditText
+            android:id="@+id/account_register_edt_password"
+            style="@style/EditText.Account.Password"
+            android:maxLength="16"
+            android:hint="请输入密码" />
+    </LinearLayout>
+
+    <View style="@style/AppLineFillWidth" />
+
+    <LinearLayout style="@style/AccountItemRowLayout" >
+
+        <TextView
+            style="@style/TextView.AccountItemLeft"
+            android:text="确认密码" />
+
+        <EditText
+            android:id="@+id/account_register_edt_password_confirm"
+            style="@style/EditText.Account.Password"
+            android:maxLength="16"
+            android:hint="请再次输入密码" />
+    </LinearLayout>
+
+    <View style="@style/AppLineFillWidth" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp" >
+
+        <TextView
+            android:id="@+id/account_register_txt_agreechoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/item_ic_check_on_orgi"
+            android:drawablePadding="7dp"
+            android:gravity="center_vertical"
+            android:text="我同意"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/account_register_txt_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《品胜用户协议》"
+            android:textColor="@color/register_verifycode"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/account_register_btn_register"
+        style="@style/AccountButton"
+        android:layout_marginTop="16.33dp"
+        android:text="注册" />
+
+</LinearLayout>

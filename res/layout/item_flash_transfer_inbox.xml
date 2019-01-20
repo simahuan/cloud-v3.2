@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="63dp"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp" >
+
+    <FrameLayout
+        android:id="@+id/imgTypeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/imgType"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_file_audio" />
+
+        <ImageView
+            android:id="@+id/imgPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/thumbnail_video_fail_play_ic" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgTypeLayout"
+        android:layout_alignTop="@+id/imgTypeLayout"
+        android:layout_marginLeft="13dp"
+        android:layout_toLeftOf="@+id/chkchoice"
+        android:layout_toRightOf="@id/imgTypeLayout" >
+
+        <TextView
+            android:id="@+id/txtFileName"
+            style="@style/TextView.TransferRecord.Item.Normal"
+            android:layout_alignParentTop="true"
+            android:text="xxxxxxx.png" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtDate"
+                style="@style/TextView.TransferRecord.Item.Disable"
+                android:text="2014-04-11" />
+
+            <TextView
+                android:id="@+id/txtSize"
+                style="@style/TextView.TransferRecord.Item.Disable"
+                android:layout_marginLeft="13dp"
+                android:text="3.5M" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/chkchoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:button="@drawable/transferrecord_checkbox_multichoice_orginal" />
+
+</RelativeLayout>
